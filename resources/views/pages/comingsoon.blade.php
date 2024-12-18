@@ -20,10 +20,10 @@
                             <div class="col-xxl-6 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                                 <div class="mb-2">
                                     <a href="{{url('index')}}">
-                                        <img style="width: 100px;" src="{{asset('build/assets/images/brand-logos/toggle-logo.png')}}" alt="" class="authentication-brand">
+                                        <img style="width: 400px;" src="{{asset('build/assets/images/brand-logos/desktop-logo.png')}}" alt="" class="authentication-brand">
                                     </a>
                                 </div>
-                                <p class="fw-semibold fs-12 mb-1 op-4">MINTTU</p>
+     
                                 <h1 class="fw-bold mb-3">Coming Soon</h1>
                                 <p class="mb-4">MINTTU ya viene en camino, ingresa tu correo para recibir las últimas notificaciones y actualizaciones sobre el sitio web.</p>
                                 <div class="input-group mb-5">
