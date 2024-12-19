@@ -8,7 +8,7 @@
 
 <!-- Start::main-sidebar-header -->
 <div class="main-sidebar-header">
-    <a href="{{url('index')}}" class="header-logo">
+    <a href="{{route('index')}}" class="header-logo">
         <!--img src="{{asset('build/assets/images/brand-logos/toggle-logo.png')}}" alt="logo" class="adentu-sidebar"-->
         <img src="{{asset('build/assets/images/brand-logos/toggle-logo.png')}}" alt="logo" class="desktop-logo">
         <img src="{{asset('build/assets/images/brand-logos/toggle-logo.png')}}" alt="logo" class="toggle-logo">
@@ -35,7 +35,7 @@
 
             <!-- Start::slide -->
             <li class="slide" >
-                <a href="{{url('index')}}" class="side-menu__item">
+                <a href="{{route('index')}}" class="side-menu__item">
                     <i class="bx bx-home side-menu__icon"></i>
                     <span class="side-menu__label">Inicio</span>
                 </a>

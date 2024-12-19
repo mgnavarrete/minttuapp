@@ -382,7 +382,7 @@
                             <div class="row justify-content-between">
                                 <div class="col-md-4 col-sm-6 col-12 mb-md-0 mb-3">
                                     <div class="px-4">
-                                        <p class="fw-semibold mb-3" style="width: 600px;"><a href="{{url('index')}}"><img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt=""></a></p>
+                                        <p class="fw-semibold mb-3" style="width: 600px;"><a href="{{route('index')}}"><img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt=""></a></p>
                                         <p class="mb-2 op-6 fw-normal">
                                             Diseña tu presente pensando en el futuro.
                                         </p>

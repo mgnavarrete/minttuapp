@@ -9,7 +9,7 @@
             <nav class="main-menu-container nav nav-pills sub-open">
                 <div class="landing-logo-container">
                     <div class="horizontal-logo">
-                        <a href="{{url('index')}}" class="header-logo">
+                        <a href="{{route('index')}}" class="header-logo">
                             <img src="{{asset('build/assets/images/brand-logos/desktop-logo.png')}}" alt="logo" class="desktop-logo">
                             <img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt="logo" class="desktop-white">
                         </a>
