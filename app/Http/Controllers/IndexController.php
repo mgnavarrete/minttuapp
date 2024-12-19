@@ -8,6 +8,6 @@ class IndexController extends Controller
     {
 
         // Pasar los datos a la vista
-        return view('pages.comingsoon');
+        return view('pages.landingIndex');
     }
 }
