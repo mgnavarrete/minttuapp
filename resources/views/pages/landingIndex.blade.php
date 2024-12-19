@@ -115,7 +115,7 @@
                                                 </div>
                                                 <div>
                                                     <h6 class="fw-semibold mb-1">
-                                                        Calidad de Diseño
+                                                        Calidad Diseño
                                                     </h6>
                                                     <p class="mb-0 text-muted">Nos aseguramos de que cada solución esté diseñada con los más altos estándares de calidad, utilizando las últimas tecnologías.</p>
                                                 </div>
