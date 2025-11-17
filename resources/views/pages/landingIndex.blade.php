@@ -17,10 +17,28 @@
                                     <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-8">
                                         <div class="py-lg-5">
                                             <div class="mb-3">
-                                            <h5 class="fw-semibold text-fixed-white op-9">DESARROLLO A TU MEDIDA</h5>
+                                                <h5 class="fw-semibold text-fixed-white op-9">VIDEO ANALÍTICA INTELIGENTE EN TIEMPO REAL</h5>
                                             </div>
-                                            <p class="landing-banner-heading mb-3">Diseña tu presente pensando en el futuro con <span class="text-primary">MINTTU!</span></p>
-                                            <div class="fs-16 mb-5 text-fixed-white op-7">MINTTU - Fusionamos desarrollo web, inteligencia artificial y las últimas tecnologías para crear soluciones que transforman ideas en herramientas reales y efectivas.</div>
+                                            <p class="landing-banner-heading mb-3">Detecta incidentes antes de que ocurran. IA + Edge Computing para prevenir riesgos y lograr trazabilidad operacional en tiempo real.</p>
+                                            <div class="fs-16 mb-4 text-fixed-white op-7">Convertimos tus cámaras IP en sensores inteligentes para seguridad operacional, logística e industria. Minttu entrega alertas con contexto, reportes descargables y métricas accionables para equipos de prevención y operaciones.</div>
+                                            <ul class="list-unstyled text-fixed-white op-8 mb-4">
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="bx bx-check-circle text-primary fs-20 me-2"></i>
+                                                    <span>Prevención de riesgos en tiempo real</span>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="bx bx-check-circle text-primary fs-20 me-2"></i>
+                                                    <span>Uso de cámaras IP ya instaladas</span>
+                                                </li>
+                                                <li class="d-flex align-items-center">
+                                                    <i class="bx bx-check-circle text-primary fs-20 me-2"></i>
+                                                    <span>Dashboards y reportes listos para auditorías</span>
+                                                </li>
+                                            </ul>
+                                            <div class="d-flex flex-wrap gap-3">
+                                                <a href="#contacto" class="btn btn-primary btn-lg btn-wave">Agenda una demo</a>
+                                                <a href="#contacto" class="btn btn-outline-light btn-lg btn-wave text-fixed-white">Solicita un piloto</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-4">
@@ -34,223 +52,161 @@
                     </div>
                     <!-- End:: Section-1 -->
 
-                    <!-- Start:: Section-3 -->
-                    <section class="section " id="about">
+                    <!-- Start:: Section-Como-Funciona -->
+                    <section class="section section-bg" id="como-funciona">
                         <div class="container text-center">
-                            <p class="fs-12 fw-semibold text-success mb-1"><span class="landing-section-heading">¿QUÉ ES MINTTU?</span></p>
-                            <h3 class="fw-semibold mb-2">Soluciones tecnológicas avanzadas y personalizadas</h3>
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">CÓMO FUNCIONA MINTTU</span></p>
+                            <h3 class="fw-semibold mb-4">Implementación en tres pasos rápidos</h3>
+                            <div class="row g-3 text-start">
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-lg avatar-rounded bg-primary-transparent me-2">
+                                                    <i class='bx bx-camera fs-24'></i>
+                                                </span>
+                                                <h6 class="fw-semibold mb-0">Paso 1</h6>
+                                            </div>
+                                            <h5 class="fw-semibold mb-2">Conecta tus cámaras IP existentes</h5>
+                                            <p class="text-muted mb-0">Integramos las cámaras ya desplegadas en sitio mediante un servidor Edge local, sin reemplazar tu infraestructura.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-lg avatar-rounded bg-primary-transparent me-2">
+                                                    <i class='bx bx-chip fs-24'></i>
+                                                </span>
+                                                <h6 class="fw-semibold mb-0">Paso 2</h6>
+                                            </div>
+                                            <h5 class="fw-semibold mb-2">Detección automática con IA en el Edge</h5>
+                                            <p class="text-muted mb-0">Modelos propios de visión por computador detectan uso de EPP, celular e ingresos a zonas restringidas en tiempo real.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-12">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-lg avatar-rounded bg-primary-transparent me-2">
+                                                    <i class='bx bx-analyse fs-24'></i>
+                                                </span>
+                                                <h6 class="fw-semibold mb-0">Paso 3</h6>
+                                            </div>
+                                            <h5 class="fw-semibold mb-2">Alertas y trazabilidad desde la plataforma</h5>
+                                            <p class="text-muted mb-0">Cada detección se transforma en alertas gestionables, métricas y reportes CSV/PDF para tus equipos de prevención de riesgos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Como-Funciona -->
+
+                    <!-- Start:: Section-Problem -->
+                    <section class="section" id="problem">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">EL PROBLEMA</span></p>
+                            <h3 class="fw-semibold mb-2">Supervisión manual, costosa y poco trazable</h3>
                             <div class="row justify-content-center">
-                                <div class="col-xl-7">
-                                    <p class="text-muted fs-15 mb-3 fw-normal">MINTTU es una empresa pionera en el desarrollo de soluciones tecnológicas avanzadas, especializada en la integración de inteligencia artificial, visión por computador y machine learning. Nos dedicamos a transformar ideas en herramientas efectivas que resuelven los desafíos únicos de nuestros clientes.</p>
+                                <div class="col-xl-8">
+                                    <p class="text-muted fs-15 mb-4 fw-normal">Hoy la seguridad operacional depende de rondas humanas o revisión posterior de horas de video. Esto implica altos costos, baja capacidad de reacción y mínima trazabilidad para demostrar cumplimiento normativo.</p>
+                                </div>
+                            </div>
+                            <div class="row g-3 text-start">
+                                <div class="col-xl-3 col-lg-3 col-md-6">
+                                    <div class="card custom-card border shadow-none h-100">
+                                        <div class="card-body">
+                                            <i class='bx bx-time-five text-primary fs-22 mb-2'></i>
+                                            <h6 class="fw-semibold mb-2">Alta carga operativa</h6>
+                                            <p class="text-muted mb-0">Horas de monitoreo manual y revisión posterior de grabaciones duplican los costos de supervisión.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6">
+                                    <div class="card custom-card border shadow-none h-100">
+                                        <div class="card-body">
+                                            <i class='bx bx-bell-off text-primary fs-22 mb-2'></i>
+                                            <h6 class="fw-semibold mb-2">Baja capacidad de reacción</h6>
+                                            <p class="text-muted mb-0">Las alertas llegan tarde, cuando el incidente ya ocurrió y el riesgo se materializó.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6">
+                                    <div class="card custom-card border shadow-none h-100">
+                                        <div class="card-body">
+                                            <i class='bx bx-git-compare text-primary fs-22 mb-2'></i>
+                                            <h6 class="fw-semibold mb-2">Falta de trazabilidad</h6>
+                                            <p class="text-muted mb-0">No existen registros automáticos que permitan auditar eventos y tomar decisiones basadas en datos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6">
+                                    <div class="card custom-card border shadow-none h-100">
+                                        <div class="card-body">
+                                            <i class='bx bx-error text-primary fs-22 mb-2'></i>
+                                            <h6 class="fw-semibold mb-2">Mayor riesgo de incidentes</h6>
+                                            <p class="text-muted mb-0">La supervisión manual no escala a todas las áreas críticas, aumentando la probabilidad de accidentes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Problem -->
+
+                    <!-- Start:: Section-3 -->
+                    <section class="section" id="about">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">NUESTRA SOLUCIÓN</span></p>
+                            <h3 class="fw-semibold mb-2">Video analítica inteligente para seguridad y operación en terreno</h3>
+                            <div class="row justify-content-center">
+                                <div class="col-xl-8">
+                                    <p class="text-muted fs-15 mb-3 fw-normal">Implementamos analítica de video basada en IA y procesamiento en el borde para convertir las cámaras existentes en sensores activos. Generamos alertas automáticas hacia una plataforma web centralizada, con métricas y reportes descargables para equipos de seguridad y operación.</p>
                                 </div>
                             </div>
                             <div class="row justify-content-between align-items-center mx-0">
-                            <div class="col-xxl-5 col-xl-5 col-lg-5 customize-image text-center">
-                                <div class="text-lg-end">
-                                    <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/3.png')}}" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 pt-5 pb-0 px-lg-2 px-5 text-start">
-                                <h5 class="text-lg-start fw-semibold mb-0">Innovación en desarrollo web y tecnologías avanzadas</h5>
-                                <p class=" text-muted">Nos especializamos en el desarrollo de aplicaciones web que incorporan las últimas tecnologías, garantizando soluciones eficientes, escalables y de alta calidad que se adaptan a las necesidades específicas de nuestros clientes.</p>
-                                <div class="row">
-                                    <div class="col-12 col-md-12">
-                                        <div class="d-flex">
-                                            <span>
-                                                <i class='bx bxs-badge-check text-primary fs-18'></i>
-                                            </span>
-                                            <div class="ms-2">
-                                                <h6 class="fw-semibold mb-0">Aplicación de inteligencia artificial y machine learning</h6>
-                                                <p class=" text-muted">Integramos inteligencia artificial y machine learning para ofrecer soluciones innovadoras que optimizan procesos y mejoran la eficiencia operativa.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-12">
-                                        <div class="d-flex">
-                                            <span>
-                                                <i class='bx bxs-badge-check text-primary fs-18'></i>
-                                            </span>
-                                            <div class="ms-2">
-                                                <h6 class="fw-semibold mb-0">Visión por computador para soluciones avanzadas</h6>
-                                                <p class=" text-muted">Utilizamos visión por computador para desarrollar aplicaciones que ofrecen capacidades avanzadas de análisis y reconocimiento visual.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-12">
-                                        <div class="d-flex">
-                                            <span>
-                                                <i class='bx bxs-badge-check text-primary fs-18'></i>
-                                            </span>
-                                            <div class="ms-2">
-                                                <h6 class="fw-semibold mb-0">Desarrollo web personalizado</h6>
-                                                <p class=" text-muted">Creamos aplicaciones web personalizadas que se alinean con los objetivos de negocio de nuestros clientes, utilizando las metodologías de desarrollo más avanzadas.</p>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div> 
-                            </div>
-                        </div> 
-                    </section>
-                    <!-- End:: Section-3 -->
-
-                    <!-- Start:: Section-4 -->
-                    <section class="section section-bg " id="our-mission">
-                        <div class="container text-center ">
-                            <p class="fs-12 fw-semibold text-success mb-1"><span class="landing-section-heading">NUESTRA MISIÓN</span></p>
-                            <h2 class="fw-semibold mb-2">Nuestra misión se compone de 8 pasos clave.</h2>
-                            <div class="row justify-content-center mb-5">
-                                <div class="col-xl-7">
-                                    <p class="text-muted fs-15 mb-0 fw-normal">Nuestra misión es simplificar el diseño web, permitiéndote centrarte en construir tu marca con el respaldo de tecnologías avanzadas.</p>
-                                </div>
-                            </div>
-                            <div class="row d-flex flex-fill">
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-badge-check fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Calidad Diseño
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Nos aseguramos de que cada solución esté diseñada con los más altos estándares de calidad, utilizando las últimas tecnologías.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="col-xxl-5 col-xl-5 col-lg-5 customize-image text-center">
+                                    <div class="text-lg-end">
+                                        <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/1.png')}}" alt="" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-file fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Documentación
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Proporcionamos documentación detallada para facilitar la implementación y el uso de nuestras soluciones tecnológicas.</p>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 pt-5 pb-0 px-lg-2 px-5 text-start">
+                                    <h5 class="text-lg-start fw-semibold mb-3">Analizamos eventos críticos, enviamos alertas y trazamos cada incidente</h5>
+                                    <p class="text-muted">Las detecciones se adaptan a la realidad de cada cliente, activando protocolos y evidencias listas para auditar.</p>
+                                    <div class="row gy-3">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <span>
+                                                    <i class='bx bxs-hard-hat text-primary fs-18'></i>
+                                                </span>
+                                                <div class="ms-2">
+                                                    <h6 class="fw-semibold mb-0">Uso de elementos de protección personal</h6>
+                                                    <p class="text-muted mb-0">Verificamos casco y chaleco en zonas operativas para disminuir accidentes y reforzar el cumplimiento normativo.</p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded  bg-primary-transparent">
-                                                        <i class='bx bx-cog fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Personalización
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Ofrecemos soluciones personalizadas que se adaptan a las necesidades específicas de cada cliente, garantizando un ajuste perfecto.</p>
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <span>
+                                                    <i class='bx bxs-phone-off text-primary fs-18'></i>
+                                                </span>
+                                                <div class="ms-2">
+                                                    <h6 class="fw-semibold mb-0">Detección de uso de celular</h6>
+                                                    <p class="text-muted mb-0">Identificamos distracciones en terreno para reducir eventos por falta de atención y apoyar campañas de seguridad.</p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-cloud-upload fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Actualizaciones Regulares
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Mantenemos nuestras soluciones actualizadas con las últimas innovaciones tecnológicas para asegurar su eficacia continua.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-support fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Soporte 24/7
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Ofrecemos soporte continuo para garantizar que nuestros clientes siempre tengan la ayuda que necesitan.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-image fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Estilos de Tema Preconstruidos
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Ofrecemos una variedad de estilos de tema preconstruidos para facilitar la personalización y el diseño.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-compass fs-25'></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Compatibilidad
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Nuestras soluciones son compatibles con una amplia gama de plataformas y dispositivos, asegurando su accesibilidad.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-fill">
-                                    <div class="card custom-card text-start landing-missions d-flex flex-fill">
-                                        <div class="card-body">
-                                            <div class="align-items-top">
-                                                <div class="mb-2">
-                                                    <span class="avatar avatar-lg avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-desktop fs-25' ></i>
-                                                    </span>
-                                                </div>
-                                                <div>
-                                                    <h6 class="fw-semibold mb-1">
-                                                        Totalmente Responsivo
-                                                    </h6>
-                                                    <p class="mb-0 text-muted">Diseñamos soluciones que se adaptan a cualquier dispositivo, garantizando una experiencia de usuario óptima.</p>
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <span>
+                                                    <i class='bx bxs-lock text-primary fs-18'></i>
+                                                </span>
+                                                <div class="ms-2">
+                                                    <h6 class="fw-semibold mb-0">Ingreso a zonas restringidas</h6>
+                                                    <p class="text-muted mb-0">Alertamos accesos no autorizados, registrando cámara, hora y responsable para generar trazabilidad inmediata.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -259,16 +215,430 @@
                             </div>
                         </div>
                     </section>
-                    <!-- End:: Section-4 -->
+                    <!-- End:: Section-3 -->
+
+                    <!-- Start:: Section-Analiticas -->
+                    <section class="section" id="analiticas">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">ANALÍTICAS DISPONIBLES</span></p>
+                            <h3 class="fw-semibold mb-2">Cobertura actual y roadmap de visión computacional</h3>
+                            <div class="row justify-content-center mb-3">
+                                <div class="col-xl-8">
+                                    <p class="text-muted fs-15 mb-0 fw-normal">Cada caso de uso se configura por cámara y regla. Los modelos se entrenan con datos locales para mantener precisión operacional.</p>
+                                </div>
+                            </div>
+                            <div class="row g-3 text-start mb-4">
+                                <div class="col-md-4">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-primary-transparent text-primary mb-2">Analítica actual</span>
+                                            <h6 class="fw-semibold mb-2">Uso de EPP</h6>
+                                            <p class="text-muted mb-0">Validamos casco, chaleco y otros elementos críticos para reducir incidentes en faenas y patios logísticos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-primary-transparent text-primary mb-2">Analítica actual</span>
+                                            <h6 class="fw-semibold mb-2">Uso de celular</h6>
+                                            <p class="text-muted mb-0">Detectamos distracciones frente a maquinaria, grúas o líneas de producción para reforzar campañas de seguridad.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-primary-transparent text-primary mb-2">Analítica actual</span>
+                                            <h6 class="fw-semibold mb-2">Ingreso a zonas restringidas</h6>
+                                            <p class="text-muted mb-0">Alertas con cámara, hora y evidencia cuando una persona o vehículo entra a áreas críticas sin autorización.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-3 text-start">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-secondary-transparent text-secondary mb-2">Próximamente</span>
+                                            <h6 class="fw-semibold mb-2">Conteo de personas</h6>
+                                            <p class="text-muted mb-0">Controlar flujos por línea o zona de evacuación.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-secondary-transparent text-secondary mb-2">Próximamente</span>
+                                            <h6 class="fw-semibold mb-2">Control de aforo</h6>
+                                            <p class="text-muted mb-0">Notificaciones cuando se supera la capacidad segura.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-secondary-transparent text-secondary mb-2">Próximamente</span>
+                                            <h6 class="fw-semibold mb-2">Detección vehicular</h6>
+                                            <p class="text-muted mb-0">Seguimiento a vehículos y forklifts en patios y bodegas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <span class="badge bg-secondary-transparent text-secondary mb-2">Próximamente</span>
+                                            <h6 class="fw-semibold mb-2">Comportamientos anómalos</h6>
+                                            <p class="text-muted mb-0">Detección de congestión, detenciones no planificadas y patrones inseguros.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Analiticas -->
+
+                    <!-- Start:: Section-Casos-uso -->
+                    <section class="section section-bg" id="casos-uso">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">CASOS DE USO</span></p>
+                            <h3 class="fw-semibold mb-2">Antes y después con Minttu</h3>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-xl-8">
+                                    <p class="text-muted fs-15 mb-0 fw-normal">Industrial, construcción, logística y minería utilizan Minttu para automatizar supervisión y documentar cumplimiento normativo.</p>
+                                </div>
+                            </div>
+                            <div class="row g-3 text-start">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-rounded bg-danger-transparent me-2">
+                                                    <i class='bx bx-time-five fs-20'></i>
+                                                </span>
+                                                <span class="text-muted fw-semibold">Antes</span>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Supervisión manual</h6>
+                                            <p class="text-muted mb-3">Horas revisando monitores y grabaciones.</p>
+                                            <div class="d-flex align-items-center">
+                                                <span class="avatar avatar-rounded bg-success-transparent me-2">
+                                                    <i class='bx bx-check fs-20'></i>
+                                                </span>
+                                                <span class="fw-semibold">Minttu automatiza la detección y libera al equipo.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-rounded bg-danger-transparent me-2">
+                                                    <i class='bx bx-video-off fs-20'></i>
+                                                </span>
+                                                <span class="text-muted fw-semibold">Antes</span>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Revisión post-incidente</h6>
+                                            <p class="text-muted mb-3">Reacción tardía y sin evidencia oportuna.</p>
+                                            <div class="d-flex align-items-center">
+                                                <span class="avatar avatar-rounded bg-success-transparent me-2">
+                                                    <i class='bx bx-bell fs-20'></i>
+                                                </span>
+                                                <span class="fw-semibold">Alertas en tiempo real permiten actuar antes del accidente.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-rounded bg-danger-transparent me-2">
+                                                    <i class='bx bx-question-mark fs-20'></i>
+                                                </span>
+                                                <span class="text-muted fw-semibold">Antes</span>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Sin trazabilidad</h6>
+                                            <p class="text-muted mb-3">Difícil demostrar cumplimiento y aprender de eventos.</p>
+                                            <div class="d-flex align-items-center">
+                                                <span class="avatar avatar-rounded bg-success-transparent me-2">
+                                                    <i class='bx bx-bar-chart-alt-2 fs-20'></i>
+                                                </span>
+                                                <span class="fw-semibold">Historial de alertas, métricas y reportes descargables.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card custom-card h-100">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <span class="avatar avatar-rounded bg-danger-transparent me-2">
+                                                    <i class='bx bx-error-circle fs-20'></i>
+                                                </span>
+                                                <span class="text-muted fw-semibold">Antes</span>
+                                            </div>
+                                            <h6 class="fw-semibold mb-1">Riesgo operacional alto</h6>
+                                            <p class="text-muted mb-3">Decisiones basadas en percepciones.</p>
+                                            <div class="d-flex align-items-center">
+                                                <span class="avatar avatar-rounded bg-success-transparent me-2">
+                                                    <i class='bx bx-brain fs-20'></i>
+                                                </span>
+                                                <span class="fw-semibold">Prevención basada en datos y patrones detectados con IA.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Casos-uso -->
+
+                    <!-- Start:: Section-Plataforma -->
+                    <section class="section" id="plataforma">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 mb-4 mb-lg-0">
+                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PLATAFORMA WEB DE GESTIÓN</span></p>
+                                    <h2 class="fw-semibold mb-3">Una plataforma pensada para prevención y operaciones</h2>
+                                    <p class="text-muted fs-15 mb-4">Dashboard, módulo de alertas, cámaras conectadas y trazabilidad completa en un solo lugar. Minttu centraliza detecciones de IA en flujos que tu equipo ya domina.</p>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border shadow-none h-100">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="avatar avatar-rounded bg-primary-transparent me-2">
+                                                            <i class='bx bx-pulse fs-20'></i>
+                                                        </span>
+                                                        <h6 class="fw-semibold mb-0">Dashboard & KPIs</h6>
+                                                    </div>
+                                                    <p class="text-muted mb-0">Indicadores por sitio, cámaras y tipo de riesgo para priorizar acciones.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border shadow-none h-100">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="avatar avatar-rounded bg-primary-transparent me-2">
+                                                            <i class='bx bx-bell fs-20'></i>
+                                                        </span>
+                                                        <h6 class="fw-semibold mb-0">Gestión de alertas</h6>
+                                                    </div>
+                                                    <p class="text-muted mb-0">Estados pendiente, revisada, cerrada o falsa alarma con comentarios y responsables.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border shadow-none h-100">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="avatar avatar-rounded bg-primary-transparent me-2">
+                                                            <i class='bx bx-video fs-20'></i>
+                                                        </span>
+                                                        <h6 class="fw-semibold mb-0">Cámaras y analíticas</h6>
+                                                    </div>
+                                                    <p class="text-muted mb-0">Configura reglas por cámara, horarios, zonas y perfiles de riesgo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border shadow-none h-100">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="avatar avatar-rounded bg-primary-transparent me-2">
+                                                            <i class='bx bx-file fs-20'></i>
+                                                        </span>
+                                                        <h6 class="fw-semibold mb-0">Reportes CSV/PDF</h6>
+                                                    </div>
+                                                    <p class="text-muted mb-0">Descarga evidencias y métricas listas para auditorías internas y externas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border shadow-none h-100">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="avatar avatar-rounded bg-primary-transparent me-2">
+                                                            <i class='bx bx-user-check fs-20'></i>
+                                                        </span>
+                                                        <h6 class="fw-semibold mb-0">Usuarios y roles</h6>
+                                                    </div>
+                                                    <p class="text-muted mb-0">Control de acceso por perfil, bitácora de cambios y trazabilidad completa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 d-flex flex-wrap gap-3">
+                                        <a href="#contacto" class="btn btn-primary btn-wave">Ver demo de la plataforma</a>
+                                        <a href="#analiticas" class="btn btn-outline-primary btn-wave">Revisar analíticas</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <div class="landing-main-image">
+                                        <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/1.png')}}" alt="Minttu Plataforma" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Plataforma -->
+
+                    <!-- Start:: Section-Corfo -->
+                    <section class="section" id="corfo">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">RESPALDO INSTITUCIONAL</span></p>
+                                    <h3 class="fw-semibold mb-3">Proyecto financiado por CORFO Semilla Inicia 2025</h3>
+                                    <p class="text-muted fs-15 mb-3">Minttu fue adjudicado por CORFO para impulsar el desarrollo, validación y escalamiento de nuestra plataforma de video analítica inteligente. Este respaldo acredita:</p>
+                                    <ul class="text-muted fs-15 mb-4 ps-3">
+                                        <li class="mb-1">Innovación tecnológica en visión computacional y Edge Computing.</li>
+                                        <li class="mb-1">Solidez del equipo fundador y capacidades de despliegue en terreno.</li>
+                                        <li class="mb-0">Viabilidad comercial del modelo SaaS para industrias de alto riesgo.</li>
+                                    </ul>
+                                    <div class="row g-3">
+                                        <div class="col-sm-4">
+                                            <div class="card custom-card shadow-none border h-100">
+                                                <div class="card-body">
+                                                    <h6 class="fw-semibold mb-1">Validación</h6>
+                                                    <p class="text-muted mb-0">Corrobora la pertinencia de la propuesta frente a riesgos operacionales reales.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="card custom-card shadow-none border h-100">
+                                                <div class="card-body">
+                                                    <h6 class="fw-semibold mb-1">Desarrollo</h6>
+                                                    <p class="text-muted mb-0">Financia la evolución tecnológica de nuestros modelos y plataforma Edge.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="card custom-card shadow-none border h-100">
+                                                <div class="card-body">
+                                                    <h6 class="fw-semibold mb-1">Escalamiento</h6>
+                                                    <p class="text-muted mb-0">Permite pilotear con nuevos clientes y preparar la expansión comercial.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/1.png')}}" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Corfo -->
+
+                    <!-- Start:: Section-Roadmap -->
+                    <section class="section section-bg" id="roadmap">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PROYECCIÓN Y ESCALABILIDAD</span></p>
+                            <h3 class="fw-semibold mb-3">Roadmap y escalamiento</h3>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-xl-8">
+                                    <p class="text-muted fs-15 mb-0 fw-normal">El plan CORFO acelera nuestro paso desde pilotos industriales hacia una plataforma SaaS multiempresa con nuevas analíticas especializadas.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-xl-8 text-start">
+                                    <div class="border-start border-2 border-primary ps-4">
+                                        <div class="position-relative pb-4 mb-4">
+                                            <span class="position-absolute top-0 start-0 translate-middle rounded-circle bg-primary" style="width:16px;height:16px;"></span>
+                                            <span class="badge bg-primary-transparent text-primary mb-2">Fase 1 · 0–9 meses</span>
+                                            <h5 class="fw-semibold mb-2">Pilotos, validación y primeros clientes</h5>
+                                            <p class="text-muted mb-2">Despliegues en construcción y logística, documentación de ROI y ajustes de modelos Edge en terreno.</p>
+                                            <ul class="text-muted mb-0 ps-4">
+                                                <li>Implementación rápida y acompañamiento operacional.</li>
+                                                <li>Integración con sistemas del cliente y APIs.</li>
+                                                <li>Base de casos de éxito para sectores prioritarios.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="position-relative pb-4 mb-4">
+                                            <span class="position-absolute top-0 start-0 translate-middle rounded-circle bg-primary" style="width:16px;height:16px;"></span>
+                                            <span class="badge bg-primary-transparent text-primary mb-2">Fase 2 · 18–24 meses</span>
+                                            <h5 class="fw-semibold mb-2">Escalamiento SaaS y nuevas analíticas</h5>
+                                            <p class="text-muted mb-2">Planes por cámara y tipo de analítica, alianzas con partners de Edge Computing y cobertura para retail, transporte y minería.</p>
+                                            <ul class="text-muted mb-0 ps-4">
+                                                <li>Conteo de personas, control de aforo y detección vehicular.</li>
+                                                <li>Despliegues multisitio con soporte centralizado.</li>
+                                                <li>Marketplace de integraciones (APIs, webhooks, BI).</li>
+                                            </ul>
+                                        </div>
+                                        <div class="position-relative">
+                                            <span class="position-absolute top-0 start-0 translate-middle rounded-circle bg-primary" style="width:16px;height:16px;"></span>
+                                            <span class="badge bg-primary-transparent text-primary mb-2">Fase 3 · 24+ meses</span>
+                                            <h5 class="fw-semibold mb-2">Plataforma multiempresa y expansión regional</h5>
+                                            <p class="text-muted mb-2">Analítica avanzada, automatización de reportes regulatorios y operación SaaS para Latinoamérica.</p>
+                                            <ul class="text-muted mb-0 ps-4">
+                                                <li>Detección de comportamientos anómalos y congestión.</li>
+                                                <li>Modelos adaptativos y benchmarking inter-plantas.</li>
+                                                <li>Estrategia de partners regionales y canal.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Roadmap -->
+
+                    <!-- Start:: Section-Equipo -->
+                    <section class="section" id="equipo">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">EQUIPO</span></p>
+                            <h3 class="fw-semibold mb-2">El equipo detrás de Minttu</h3>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-xl-8">
+                                    <p class="text-muted fs-15 mb-0 fw-normal">Combinamos experiencia en IA, visión computacional y operación en terreno para desplegar proyectos críticos en industrias de alto riesgo.</p>
+                                </div>
+                            </div>
+                            <div class="row g-3 text-start">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card custom-card text-center h-100">
+                                        <div class="card-body">
+                                            <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/1.png')}}" alt="Equipo Minttu" class="avatar avatar-xxl rounded-circle mb-3">
+                                            <h5 class="fw-semibold mb-1">Valentina Torres</h5>
+                                            <p class="text-primary fw-semibold mb-2">Co-Founder & CEO</p>
+                                            <p class="text-muted mb-0">Operaciones industriales, prevención de riesgos y relacionamiento comercial.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card custom-card text-center h-100">
+                                        <div class="card-body">
+                                            <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/1.png')}}" alt="Equipo Minttu" class="avatar avatar-xxl rounded-circle mb-3">
+                                            <h5 class="fw-semibold mb-1">Diego Rivas</h5>
+                                            <p class="text-primary fw-semibold mb-2">Co-Founder & CTO</p>
+                                            <p class="text-muted mb-0">Arquitectura de visión por computador, Edge Computing y despliegue en campo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="card custom-card text-center h-100">
+                                        <div class="card-body">
+                                            <img src="{{asset('https://laravelui.spruko.com/ynex/build/assets/images/media/landing/1.png')}}" alt="Equipo Minttu" class="avatar avatar-xxl rounded-circle mb-3">
+                                            <h5 class="fw-semibold mb-1">Catalina Mena</h5>
+                                            <p class="text-primary fw-semibold mb-2">Head of Customer Success</p>
+                                            <p class="text-muted mb-0">Implementación de pilotos, onboarding y soporte para plantas y contractors.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Equipo -->
 
                     <!-- Start:: Section-5 -->
                     <section class="section landing-Features" id="features">
                         <div class="container text-center">
-                            <p class="fs-12 fw-semibold text-success mb-1"><span class="landing-section-heading">Características</span></p>
-                            <h2 class="fw-semibold mb-2 text-fixed-white ">Tecnologías Utilizadas en MINTTU</h2>
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">Características</span></p>
+                            <h2 class="fw-semibold mb-2 text-fixed-white ">Tecnologías utilizadas en Minttu</h2>
                             <div class="row justify-content-center">
                                 <div class="col-xl-7">
-                                    <p class="text-fixed-white op-8 fs-15 mb-3 fw-normal">Estas son algunas de las tecnologías que utilizamos para ofrecer soluciones innovadoras y efectivas.</p>
+                                    <p class="text-fixed-white op-8 fs-15 mb-3 fw-normal">Combinamos estas herramientas para entrenar modelos de IA, operar video analítica en el borde y entregar una plataforma web segura y escalable.</p>
                                 </div>
                             </div>
                             <div class="text-start">
@@ -306,13 +676,13 @@
                     <!-- End:: Section-5 -->
 
                     <!-- Start:: Section-10 -->
-                    <section class="section" id="contact">
+                    <section class="section" id="contacto">
                         <div class="container text-center">
-                            <p class="fs-12 fw-semibold text-success mb-1"><span class="landing-section-heading">CONTÁCTANOS</span></p>
-                            <h3 class="fw-semibold mb-2">¿Tienes alguna pregunta? Nos encantaría saber de ti.</h3>
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">CONTACTO</span></p>
+                            <h3 class="fw-semibold mb-2">Conversemos tu piloto</h3>
                             <div class="row justify-content-center">
                                 <div class="col-xl-9">
-                                    <p class="text-muted fs-15 mb-5 fw-normal">Puedes contactarnos en cualquier momento para resolver tus dudas o consultas. No dudes en aclarar tus preguntas antes de probar nuestro producto.</p>
+                                    <p class="text-muted fs-15 mb-5 fw-normal">Cuéntanos sobre tu operación y te ayudamos a evaluar el impacto de Minttu en tus riesgos, procesos y reportabilidad.</p>
                                 </div>
                             </div>
                             <div class="row text-start">
@@ -328,43 +698,33 @@
                                         <div class="card-body">
                                             <div class="row gy-3 mt-2 px-3">
                                                 <div class="col-xl-6">
-                                                    <div class="row gy-3">
-                                                        <div class="col-xl-12">
-                                                            <label for="contact-address-name" class="form-label">Nombre Completo:</label>
-                                                            <input type="text" class="form-control" id="contact-address-name" placeholder="Ingresa tu nombre">
-                                                        </div>
-                                                        <div class="col-xl-12">
-                                                            <label for="contact-address-phone" class="form-label">Teléfono:</label>
-                                                            <input type="text" class="form-control" id="contact-address-phone" placeholder="Ingresa tu número de teléfono">
-                                                        </div>
-                                                        <div class="col-xl-12">
-                                                            <label for="contact-address-address" class="form-label">Dirección:</label>
-                                                            <textarea class="form-control" id="contact-address-address" rows="1">Santiago, Chile</textarea>
-                                                        </div>
-                                                    </div>
+                                                    <label for="contact-name" class="form-label">Nombre completo</label>
+                                                    <input type="text" class="form-control" id="contact-name" placeholder="Ej: Ana Pérez">
                                                 </div>
                                                 <div class="col-xl-6">
-                                                    <label for="contact-address-message" class="form-label">Mensaje:</label>
-                                                    <textarea class="form-control" id="contact-address-message" rows="8"></textarea>
+                                                    <label for="contact-company" class="form-label">Empresa / Área</label>
+                                                    <input type="text" class="form-control" id="contact-company" placeholder="Compañía o faena">
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label for="contact-email" class="form-label">Correo corporativo</label>
+                                                    <input type="email" class="form-control" id="contact-email" placeholder="nombre@empresa.com">
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <label for="contact-phone" class="form-label">Teléfono / WhatsApp</label>
+                                                    <input type="text" class="form-control" id="contact-phone" placeholder="+56 9 1234 5678">
                                                 </div>
                                                 <div class="col-xl-12">
-                                                    <div class="d-flex mt-4">
-                                                        <div class="">
-                                                            <div class="btn-list">
-                                                                <a href="https://www.facebook.com" class="btn btn-icon btn-primary-light btn-wave">
-                                                                    <i class="ri-facebook-line fw-bold"></i>
-                                                                </a>
-                                                                <a href="https://www.x.com" class="btn btn-icon btn-primary-light btn-wave">
-                                                                    <i class="ri-twitter-line fw-bold"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com" class="btn btn-icon btn-primary-light btn-wave">
-                                                                    <i class="ri-instagram-line fw-bold"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="ms-auto">
-                                                            <a href="{{route('index')}}" class="btn btn-primary btn-wave">Enviar Mensaje</a>
-                                                        </div>
+                                                    <label for="contact-message" class="form-label">Mensaje</label>
+                                                    <textarea class="form-control" id="contact-message" rows="4" placeholder="Cuéntanos sobre tus riesgos o el piloto que quieres evaluar"></textarea>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <div class="d-flex flex-wrap gap-2 mt-4">
+                                                        <a href="mailto:info@minttu.com" class="btn btn-primary btn-wave flex-grow-1">Enviar correo</a>
+                                                        <a href="https://wa.me/56988218431" class="btn btn-outline-primary btn-wave flex-grow-1" target="_blank">Hablar por WhatsApp</a>
+                                                    </div>
+                                                    <div class="mt-3 text-muted small">
+                                                        <p class="mb-1"><i class="ri-mail-line me-1 align-middle"></i> info@minttu.com</p>
+                                                        <p class="mb-0"><i class="ri-phone-line me-1 align-middle"></i> +(569) 882 18431</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -382,9 +742,9 @@
                             <div class="row justify-content-between">
                                 <div class="col-md-4 col-sm-6 col-12 mb-md-0 mb-3">
                                     <div class="px-4">
-                                        <p class="fw-semibold mb-3" style="width: 600px;"><a href="{{route('index')}}"><img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt=""></a></p>
+                                        <p class="fw-semibold mb-3" style="width: 100px;"><a href="{{url('index')}}"><img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt=""></a></p>
                                         <p class="mb-2 op-6 fw-normal">
-                                            Diseña tu presente pensando en el futuro.
+                                            Video analítica inteligente para operaciones más seguras.
                                         </p>
                                         <p class="mb-0 op-6 fw-normal"><span class="text-muted fs-15"> Copyright © <span id="year"></span> <a
                                             href="minttu.cl" class="text-secondary fw-semibold"><u>MINTTU</u></a>.

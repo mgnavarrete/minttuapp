@@ -9,7 +9,7 @@
             <nav class="main-menu-container nav nav-pills sub-open">
                 <div class="landing-logo-container">
                     <div class="horizontal-logo">
-                        <a href="{{route('index')}}" class="header-logo">
+                        <a href="{{url('index')}}" class="header-logo">
                             <img src="{{asset('build/assets/images/brand-logos/desktop-logo.png')}}" alt="logo" class="desktop-logo">
                             <img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt="logo" class="desktop-white">
                         </a>
@@ -20,21 +20,62 @@
                     <!-- Start::slide -->
                     <li class="slide">
                         <a class="side-menu__item" href="#home">
-                            <span class="side-menu__label">Inicio</span>
+                            <span class="side-menu__label">Home</span>
                         </a>
                     </li>
                     <!-- End::slide -->
                     <!-- Start::slide -->
                     <li class="slide">
-                        <a href="#about" class="side-menu__item">
-                            <span class="side-menu__label">Nosotros</span>
+                        <a href="#como-funciona" class="side-menu__item">
+                            <span class="side-menu__label">Cómo funciona</span>
                         </a>
                     </li>
                     <!-- End::slide -->
-                 
                     <!-- Start::slide -->
                     <li class="slide">
-                        <a href="#contact" class="side-menu__item">
+                        <a href="#analiticas" class="side-menu__item">
+                            <span class="side-menu__label">Analíticas</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#casos-uso" class="side-menu__item">
+                            <span class="side-menu__label">Casos de uso</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#plataforma" class="side-menu__item">
+                            <span class="side-menu__label">Plataforma web</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#corfo" class="side-menu__item">
+                            <span class="side-menu__label">CORFO / Respaldo</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#roadmap" class="side-menu__item">
+                            <span class="side-menu__label">Roadmap</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#equipo" class="side-menu__item">
+                            <span class="side-menu__label">Equipo</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#contacto" class="side-menu__item">
                             <span class="side-menu__label">Contacto</span>
                         </a>
                     </li>
