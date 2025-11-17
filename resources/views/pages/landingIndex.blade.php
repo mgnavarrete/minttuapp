@@ -205,7 +205,7 @@
                                     <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">¿QUIÉNES SOMOS?</span></p>
                                     <h2 class="fw-semibold mb-3">Minttu SpA</h2>
                                     <p class="text-muted fs-15 mb-3">Minttu es una startup fundada en 2025 por un equipo pequeño que combina experiencia en prevención, datos y automatización. Nacimos con la misión de que cualquier operación pueda convertir sus cámaras en alertas útiles y trazables.</p>
-                                    <p class="text-muted fs-15 mb-3">Desde principios de este año venimos diseñando la idea y arquitectura de nuestra solución, validando flujos con especialistas en terreno y preparando los módulos críticos para el despliegue.</p>
+                                    <p class="text-muted fs-15 mb-3">Desde principios de este año hemos estado diseñando la idea y arquitectura de nuestra solución, validando flujos con especialistas en terreno y preparando los módulos críticos para el despliegue.</p>
                                     <p class="text-muted fs-15 mb-3">En noviembre nos adjudicamos un fondo que nos permite acelerar el desarrollo y probar los primeros pilotos. Estamos invirtiendo cada recurso en convertir esta visión en una plataforma robusta y simple de adoptar.</p>
                                     <p class="text-muted fs-15 mb-0">Hoy seguimos construyendo la solución completa y buscamos clientes fundadores, patrocinadores, canales y cualquier apoyo que nos permita escalar más rápido. Si compartes esta visión, conversemos.</p>
                                 </div>
