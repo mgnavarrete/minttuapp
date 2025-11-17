@@ -35,6 +35,43 @@
             .landing-feature-card p {
                 font-size: 0.92rem;
             }
+            .landing-body .landing-banner {
+                background-color: #1D2031 !important;
+                background-image: none !important;
+            }
+            .landing-body .landing-banner::before {
+                background-color: #1D2031 !important;
+                opacity: 1;
+            }
+            .landing-body .landing-banner .section {
+                background-color: transparent;
+            }
+            .landing-body .app-header,
+            .landing-body .app-header .main-header-container {
+                background-color: #1D2031;
+            }
+            .landing-body #sidebar:not(.sticky-pin),
+            .landing-body #sidebar:not(.sticky-pin) .main-menu-container,
+            .landing-body #sidebar:not(.sticky-pin) .main-menu {
+                background-color: #1D2031 !important;
+            }
+            html[data-theme-mode="dark"] .landing-body .app-header,
+            html[data-theme-mode="dark"] .landing-body .app-header .main-header-container {
+                background-color: #1D2031;
+            }
+            html[data-theme-mode="dark"] .landing-body #sidebar:not(.sticky-pin),
+            html[data-theme-mode="dark"] .landing-body #sidebar:not(.sticky-pin) .main-menu-container,
+            html[data-theme-mode="dark"] .landing-body #sidebar:not(.sticky-pin) .main-menu {
+                background-color: #1D2031 !important;
+            }
+            @media (max-width: 991.98px) {
+                .landing-body .app-header,
+                .landing-body #sidebar:not(.sticky-pin),
+                .landing-body #sidebar:not(.sticky-pin) .main-sidebar,
+                .landing-body #sidebar:not(.sticky-pin) .main-menu-container {
+                    background-color: #1D2031 !important;
+                }
+            }
         </style>
       
 @endsection
@@ -51,7 +88,7 @@
                                             <div class="mb-3">
                                                 <h5 class="fw-semibold text-fixed-white op-9">VIDEO ANALÍTICA INTELIGENTE EN TIEMPO REAL</h5>
                                             </div>
-                                            <p class="landing-banner-heading mb-3"><span class="text-primary">Control, Prevensión y Monitoreo</span> de Riesgos con IA y Edge Computing </p>
+                                            <p class="landing-banner-heading mb-3"><span class="text-secondary">Control, Prevensión y Monitoreo</span> de Riesgos con IA y Edge Computing </p>
                                             <div class="fs-16 mb-4 text-fixed-white op-7">Convertimos tus cámaras IP en sensores inteligentes para seguridad operacional, logística e industria. Minttu entrega alertas con contexto, reportes descargables y métricas accionables para equipos de prevención y operaciones.</div>
                                             <ul class="list-unstyled text-fixed-white op-8 mb-4">
                                                 <li class="d-flex align-items-center mb-2">
@@ -68,13 +105,15 @@
                                                 </li>
                                             </ul> </div>
                                     </div>
-                                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-4">
+                                    <div class="col-xxl-5 col-xl-5 col-lg-5 customize-image text-center">
+                                    
                                         <div class="text-end landing-main-image landing-heading-img">
                                             <div class="landing-hero-img-wrapper">
                                                 <img src="{{asset('build/assets/images/landing/hero.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 1000px; height: 100%; object-fit: contain;">
                                             </div>
                                         </div>
-                                    </div>
+                                    
+                                </div>
                                 </div>
                             </div>
                         </section>
@@ -241,9 +280,84 @@
                         </div>
                     </section>
                     <!-- End:: Section-Como-Funciona -->
+                    <!-- Start:: Section-Plataforma -->
+                    <section class="section" id="plataforma">
+                        <div class="container">
+                            <div class="row text-center">
+                                <div class="col-lg-6 mb-4 mb-lg-0">
+                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PLATAFORMA WEB DE GESTIÓN</span></p>
+                                    <h2 class="fw-semibold mb-3">Una plataforma pensada para prevención y operaciones</h2>
+                                    <p class="text-muted fs-15 mb-4">Dashboard, módulo de alertas, cámaras conectadas y trazabilidad completa en un solo lugar. Minttu centraliza detecciones de IA en flujos que tu equipo ya domina.</p>
+                                    <div class="row g-3 g-lg-4 justify-content-center">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-pulse fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Dashboard & KPIs</h6>
+                                                        <p class="text-muted mb-0">Indicadores por sitio, cámaras y tipo de riesgo para priorizar acciones.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-bell fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Gestión de alertas</h6>
+                                                        <p class="text-muted mb-0">Estados pendiente, revisada, cerrada o falsa alarma con comentarios y responsables.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-video fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Cámaras y analíticas</h6>
+                                                        <p class="text-muted mb-0">Configura reglas por cámara, horarios, zonas y perfiles de riesgo.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-file fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Reportes CSV/PDF</h6>
+                                                        <p class="text-muted mb-0">Descarga evidencias y métricas listas para auditorías internas y externas.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                </div>
+                                <div class="col-lg-6 text-center text-lg-end">
+                                    <div class="d-inline-flex p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light">
+                                        <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 480px; object-fit: contain;">
+                                    </div>
+                                    <div class="d-inline-flex p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light">
+                                        <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 480px; object-fit: contain;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Plataforma -->
                     <!-- Start:: Section-Analiticas -->
-                    <section class="section" id="analiticas">
+                    <section class="section section-bg" id="analiticas">
                         <div class="container text-center">
                             <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">ANALÍTICAS DISPONIBLES</span></p>
                             <h3 class="fw-semibold mb-2">Analíticas actuales y en desarrollo</h3>
@@ -338,67 +452,7 @@
                     </section>
                     <!-- End:: Section-Analiticas -->
 
-                    <!-- Start:: Section-Plataforma -->
-                    <section class="section section-bg" id="plataforma">
-                        <div class="container">
-                            <div class="row text-center">
-                                <div class="col-lg-12 mb-4 mb-lg-0">
-                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PLATAFORMA WEB DE GESTIÓN</span></p>
-                                    <h2 class="fw-semibold mb-3">Una plataforma pensada para prevención y operaciones</h2>
-                                    <p class="text-muted fs-15 mb-4">Dashboard, módulo de alertas, cámaras conectadas y trazabilidad completa en un solo lugar. Minttu centraliza detecciones de IA en flujos que tu equipo ya domina.</p>
-                                    <div class="row g-3 justify-content-center">
-                                        <div class="col-12 col-sm-6 col-lg-3">
-                                            <div class="card custom-card border shadow-none h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-pulse fs-22'></i>
-                                                    </span>
-                                                    <h6 class="fw-semibold">Dashboard & KPIs</h6>
-                                                    <p class="text-muted mb-0">Indicadores por sitio, cámaras y tipo de riesgo para priorizar acciones.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-6 col-lg-3">
-                                            <div class="card custom-card border shadow-none h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-bell fs-22'></i>
-                                                    </span>
-                                                    <h6 class="fw-semibold">Gestión de alertas</h6>
-                                                    <p class="text-muted mb-0">Estados pendiente, revisada, cerrada o falsa alarma con comentarios y responsables.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-6 col-lg-3">
-                                            <div class="card custom-card border shadow-none h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-video fs-22'></i>
-                                                    </span>
-                                                    <h6 class="fw-semibold">Cámaras y analíticas</h6>
-                                                    <p class="text-muted mb-0">Configura reglas por cámara, horarios, zonas y perfiles de riesgo.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-6 col-lg-3">
-                                            <div class="card custom-card border shadow-none h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-file fs-22'></i>
-                                                    </span>
-                                                    <h6 class="fw-semibold">Reportes CSV/PDF</h6>
-                                                    <p class="text-muted mb-0">Descarga evidencias y métricas listas para auditorías internas y externas.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </section>
-                    <!-- End:: Section-Plataforma -->
+                    
 
                     <!-- Start:: Section-Corfo -->
                     <section class="section" id="corfo">

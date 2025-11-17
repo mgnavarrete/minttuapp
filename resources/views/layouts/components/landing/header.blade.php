@@ -10,9 +10,9 @@
                         <!-- Start::header-element -->
                         <div class="header-element">
                             <div class="horizontal-logo">
-                                <a href="{{url('index')}}" class="header-logo">
-                                    <img src="{{asset('build/assets/images/brand-logos/toggle-logo.png')}}" alt="logo" class="toggle-logo">
-                                    <img src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="logo" class="toggle-dark">
+                                <a class="header-logo">
+                                    <img src="{{asset('build/assets/images/brand-logos/toggle-white.png')}}" alt="logo" class="toggle-logo">
+                                    <img src="{{asset('build/assets/images/brand-logos/toggle-white.png')}}" alt="logo" class="toggle-dark">
                                 </a>
                             </div>
                         </div>
@@ -21,7 +21,7 @@
                         <!-- Start::header-element -->
                         <div class="header-element">
                             <!-- Start::header-link -->
-                            <a href="javascript:void(0);" class="sidemenu-toggle header-link" data-bs-toggle="sidebar">
+                            <a href="javascript:void(0);" class="sidemenu-toggle header-link text-secondary" data-bs-toggle="sidebar">
                                 <span class="open-toggle">
                                     <i class="ri-menu-3-line fs-20"></i>
                                 </span>
@@ -37,7 +37,7 @@
                     <div class="header-content-right">
 
                         <!-- Start::header-element -->
-                        <div class="header-element align-items-center">
+                        {{-- <div class="header-element align-items-center">
                             <!-- Start::header-link|switcher-icon -->
                             <div class="btn-list d-lg-none d-block">
                                 <a href="{{url('signup-basic')}}" class="btn btn-primary-light">
@@ -48,7 +48,7 @@
                                 </button>
                             </div>
                             <!-- End::header-link|switcher-icon -->
-                        </div>
+                        </div> --}}
                         <!-- End::header-element -->
 
                     </div>
