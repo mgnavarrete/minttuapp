@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{asset('build/assets/libs/swiper/swiper-bundle.min.css')}}">
         <style>
             .landing-hero-img-wrapper {
-                width: min(360px, 100%);
+                width: min(1000px, 100%);
                 margin-left: auto;
             }
             .landing-hero-img {
@@ -71,7 +71,7 @@
                                     <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-4">
                                         <div class="text-end landing-main-image landing-heading-img">
                                             <div class="landing-hero-img-wrapper">
-                                                <img src="{{asset('build/assets/images/landing/hero.png')}}" alt="" class="img-fluid landing-hero-img">
+                                                <img src="{{asset('build/assets/images/landing/hero.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 1000px; height: 100%; object-fit: contain;">
                                             </div>
                                         </div>
                                     </div>
@@ -145,9 +145,13 @@
                             </div>
                             <div class="row justify-content-between align-items-center mx-0">
                                 <div class="col-xxl-5 col-xl-5 col-lg-5 customize-image text-center">
-                                    <div class="text-lg-end">
-                                        <img src="{{asset('build/assets/images/landing/arq.png')}}" alt="" class="img-fluid">
-                                    </div>
+                                    
+                                        <div class="text-end landing-main-image landing-heading-img">
+                                            <div class="landing-hero-img-wrapper">
+                                                <img src="{{asset('build/assets/images/landing/detect.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 1000px; height: 100%; object-fit: contain;">
+                                            </div>
+                                        </div>
+                                    
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 pt-5 pb-0 px-lg-2 px-5 text-start">
                                     <h5 class="text-lg-start fw-semibold mb-3">Analizamos eventos críticos, enviamos alertas y trazamos cada incidente</h5>
@@ -287,7 +291,7 @@
                                 </div>
                             </div>
                             <div class="row g-3 text-start">
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-4 col-sm-6">
                                     <div class="card custom-card h-100">
                                         <div class="card-body">
                                             <span class="avatar avatar-md avatar-rounded bg-secondary-transparent text-secondary mb-3">
@@ -299,7 +303,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-4 col-sm-6">
                                     <div class="card custom-card h-100">
                                         <div class="card-body">
                                             <span class="avatar avatar-md avatar-rounded bg-secondary-transparent text-secondary mb-3">
@@ -311,7 +315,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-4 col-sm-6">
                                     <div class="card custom-card h-100">
                                         <div class="card-body">
                                             <span class="avatar avatar-md avatar-rounded bg-secondary-transparent text-secondary mb-3">
@@ -323,18 +327,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="card custom-card h-100">
-                                        <div class="card-body">
-                                            <span class="avatar avatar-md avatar-rounded bg-secondary-transparent text-secondary mb-3">
-                                                <i class='bx bx-analyse fs-20'></i>
-                                            </span>
-                                            <span class="badge bg-secondary-transparent text-secondary mb-2">Próximamente</span>
-                                            <h6 class="fw-semibold mb-2">Comportamientos anómalos</h6>
-                                            <p class="text-muted mb-0">Detección de congestión, detenciones no planificadas y patrones inseguros.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                      
                                 <div class="row justify-content-center mb-3 mt-4">
                                     <div class="col-xl-8">
                                         <p class="text-muted fs-15 mb-0 fw-normal">Nuestro servicios incluyen personalización de analíticas, donde desarrollamos e implementamos nuevas funciones a medida del cliente.</p>

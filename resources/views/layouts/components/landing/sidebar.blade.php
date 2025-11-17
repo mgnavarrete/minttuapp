@@ -20,7 +20,14 @@
                     <!-- Start::slide -->
                     <li class="slide">
                         <a class="side-menu__item" href="#home">
-                            <span class="side-menu__label">Home</span>
+                            <span class="side-menu__label">Inicio</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#problem" class="side-menu__item">
+                            <span class="side-menu__label">Problema</span>
                         </a>
                     </li>
                     <!-- End::slide -->
@@ -35,13 +42,6 @@
                     <li class="slide">
                         <a href="#analiticas" class="side-menu__item">
                             <span class="side-menu__label">Analíticas</span>
-                        </a>
-                    </li>
-                    <!-- End::slide -->
-                    <!-- Start::slide -->
-                    <li class="slide">
-                        <a href="#casos-uso" class="side-menu__item">
-                            <span class="side-menu__label">Casos de uso</span>
                         </a>
                     </li>
                     <!-- End::slide -->
@@ -68,14 +68,7 @@
                     <!-- End::slide -->
                     <!-- Start::slide -->
                     <li class="slide">
-                        <a href="#equipo" class="side-menu__item">
-                            <span class="side-menu__label">Equipo</span>
-                        </a>
-                    </li>
-                    <!-- End::slide -->
-                    <!-- Start::slide -->
-                    <li class="slide">
-                        <a href="#contacto" class="side-menu__item">
+                        <a href="#contact" class="side-menu__item">
                             <span class="side-menu__label">Contacto</span>
                         </a>
                     </li>
