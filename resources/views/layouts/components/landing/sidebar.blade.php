@@ -9,7 +9,7 @@
             <nav class="main-menu-container nav nav-pills sub-open">
                 <div class="landing-logo-container">
                     <div class="horizontal-logo">
-                        <a href="{{url('index')}}" class="header-logo">
+                        <a href="" class="header-logo">
                             <img src="{{asset('build/assets/images/brand-logos/desktop-logo.png')}}" alt="logo" class="desktop-logo">
                             <img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt="logo" class="desktop-white">
                         </a>
@@ -40,18 +40,19 @@
                     <!-- End::slide -->
                     <!-- Start::slide -->
                     <li class="slide">
-                        <a href="#analiticas" class="side-menu__item">
-                            <span class="side-menu__label">Analíticas</span>
-                        </a>
-                    </li>
-                    <!-- End::slide -->
-                    <!-- Start::slide -->
-                    <li class="slide">
                         <a href="#plataforma" class="side-menu__item">
                             <span class="side-menu__label">Plataforma web</span>
                         </a>
                     </li>
                     <!-- End::slide -->
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#analiticas" class="side-menu__item">
+                            <span class="side-menu__label">Analíticas</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    
                     <!-- Start::slide -->
                     <li class="slide">
                         <a href="#corfo" class="side-menu__item">

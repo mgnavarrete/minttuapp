@@ -46,30 +46,106 @@
             .landing-body .landing-banner .section {
                 background-color: transparent;
             }
+            .landing-body .main-content {
+                padding: 0 !important;
+            }
             .landing-body .app-header,
             .landing-body .app-header .main-header-container {
-                background-color: #1D2031;
-            }
-            .landing-body #sidebar:not(.sticky-pin),
-            .landing-body #sidebar:not(.sticky-pin) .main-menu-container,
-            .landing-body #sidebar:not(.sticky-pin) .main-menu {
                 background-color: #1D2031 !important;
+            }
+            .landing-body .app-sidebar,
+            .landing-body .app-sidebar .main-menu-container,
+            .landing-body .app-sidebar .main-menu {
+                transition: background-color 0.3s ease;
+            }
+            .landing-body .app-sidebar:not(.sticky-pin),
+            .landing-body .app-sidebar:not(.sticky-pin) .main-menu-container,
+            .landing-body .app-sidebar:not(.sticky-pin) .main-menu {
+                background-color: #1D2031 !important;
+            }
+            .landing-body .app-sidebar:not(.sticky-pin) .horizontal-logo .toggle-logo,
+            .landing-body .app-header .horizontal-logo .toggle-logo {
+                display: none;
+            }
+            .landing-body .app-sidebar:not(.sticky-pin) .horizontal-logo .toggle-dark,
+            .landing-body .app-header .horizontal-logo .toggle-dark {
+                display: block;
             }
             html[data-theme-mode="dark"] .landing-body .app-header,
-            html[data-theme-mode="dark"] .landing-body .app-header .main-header-container {
-                background-color: #1D2031;
-            }
-            html[data-theme-mode="dark"] .landing-body #sidebar:not(.sticky-pin),
-            html[data-theme-mode="dark"] .landing-body #sidebar:not(.sticky-pin) .main-menu-container,
-            html[data-theme-mode="dark"] .landing-body #sidebar:not(.sticky-pin) .main-menu {
+            html[data-theme-mode="dark"] .landing-body .app-header .main-header-container,
+            html[data-theme-mode="dark"] .landing-body .app-sidebar:not(.sticky-pin),
+            html[data-theme-mode="dark"] .landing-body .app-sidebar:not(.sticky-pin) .main-menu-container,
+            html[data-theme-mode="dark"] .landing-body .app-sidebar:not(.sticky-pin) .main-menu {
                 background-color: #1D2031 !important;
+            }
+            .landing-body .app-sidebar.sticky.sticky-pin,
+            .landing-body .app-sidebar.sticky.sticky-pin .main-menu-container,
+            .landing-body .app-sidebar.sticky.sticky-pin .main-menu,
+            .landing-body #sidebar.sticky.sticky-pin,
+            .landing-body #sidebar.sticky.sticky-pin .main-sidebar,
+            .landing-body #sidebar.sticky.sticky-pin .main-menu-container {
+                background-color: #ffffff !important;
+            }
+            .landing-body .app-sidebar.sticky.sticky-pin .horizontal-logo .toggle-logo,
+            .landing-body #sidebar.sticky.sticky-pin .horizontal-logo .toggle-logo {
+                display: block;
+            }
+            .landing-body .app-sidebar.sticky.sticky-pin .horizontal-logo .toggle-dark,
+            .landing-body #sidebar.sticky.sticky-pin .horizontal-logo .toggle-dark {
+                display: none;
+            }
+            html[data-theme-mode="dark"] .landing-body .app-sidebar.sticky.sticky-pin,
+            html[data-theme-mode="dark"] .landing-body .app-sidebar.sticky.sticky-pin .main-menu-container,
+            html[data-theme-mode="dark"] .landing-body .app-sidebar.sticky.sticky-pin .main-menu,
+            html[data-theme-mode="dark"] .landing-body #sidebar.sticky.sticky-pin,
+            html[data-theme-mode="dark"] .landing-body #sidebar.sticky.sticky-pin .main-sidebar,
+            html[data-theme-mode="dark"] .landing-body #sidebar.sticky.sticky-pin .main-menu-container {
+                background-color: #ffffff !important;
             }
             @media (max-width: 991.98px) {
                 .landing-body .app-header,
+                .landing-body .app-header .main-header-container,
                 .landing-body #sidebar:not(.sticky-pin),
                 .landing-body #sidebar:not(.sticky-pin) .main-sidebar,
                 .landing-body #sidebar:not(.sticky-pin) .main-menu-container {
                     background-color: #1D2031 !important;
+                }
+            }
+            @media (max-width: 767.98px) {
+                .landing-body .landing-banner {
+                    position: relative;
+                    width: 100vw;
+                    left: 50%;
+                    right: 50%;
+                    margin-left: -50vw;
+                    margin-right: -50vw;
+                    padding: 0;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+                .landing-body .landing-banner .section {
+                    padding: 2.5rem 0 !important;
+                    margin: 0 !important;
+                }
+                .landing-body .landing-banner .container,
+                .landing-body .landing-banner .main-banner-container {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    padding-inline: 0 !important;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+                .landing-body .landing-banner .row {
+                    margin-inline: 0 !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                    --bs-gutter-x: 0;
+                }
+                .landing-body .landing-banner [class*="col-"] {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
                 }
             }
         </style>
@@ -92,15 +168,15 @@
                                             <div class="fs-16 mb-4 text-fixed-white op-7">Convertimos tus cámaras IP en sensores inteligentes para seguridad operacional, logística e industria. Minttu entrega alertas con contexto, reportes descargables y métricas accionables para equipos de prevención y operaciones.</div>
                                             <ul class="list-unstyled text-fixed-white op-8 mb-4">
                                                 <li class="d-flex align-items-center mb-2">
-                                                    <i class="bx bx-check-circle text-primary fs-20 me-2"></i>
+                                                    <i class="bx bx-check-circle text-secondary fs-20 me-2"></i>
                                                     <span>Prevención de riesgos en tiempo real</span>
                                                 </li>
                                                 <li class="d-flex align-items-center mb-2">
-                                                    <i class="bx bx-check-circle text-primary fs-20 me-2"></i>
+                                                    <i class="bx bx-check-circle text-secondary fs-20 me-2"></i>
                                                     <span>Uso de cámaras IP ya instaladas</span>
                                                 </li>
                                                 <li class="d-flex align-items-center">
-                                                    <i class="bx bx-check-circle text-primary fs-20 me-2"></i>
+                                                    <i class="bx bx-check-circle text-secondary fs-20 me-2"></i>
                                                     <span>Dashboards y reportes listos para auditorías</span>
                                                 </li>
                                             </ul> </div>
@@ -109,7 +185,7 @@
                                     
                                         <div class="text-end landing-main-image landing-heading-img">
                                             <div class="landing-hero-img-wrapper">
-                                                <img src="{{asset('build/assets/images/landing/hero.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 1000px; height: 100%; object-fit: contain;">
+                                                <img src="{{asset('build/assets/images/landing/hero.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 600px; height: 100%; object-fit: contain;">
                                             </div>
                                         </div>
                                     
@@ -187,7 +263,7 @@
                                     
                                         <div class="text-end landing-main-image landing-heading-img">
                                             <div class="landing-hero-img-wrapper">
-                                                <img src="{{asset('build/assets/images/landing/detect.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 1000px; height: 100%; object-fit: contain;">
+                                                <img src="{{asset('build/assets/images/landing/detect.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 600px; height: 100%; object-fit: contain;">
                                             </div>
                                         </div>
                                     
@@ -346,10 +422,10 @@
                                 </div>
                                 <div class="col-lg-6 text-center text-lg-end">
                                     <div class="d-inline-flex p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light">
-                                        <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 480px; object-fit: contain;">
+                                        <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 550px; object-fit: contain;">
                                     </div>
                                     <div class="d-inline-flex p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light">
-                                        <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 480px; object-fit: contain;">
+                                        <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 550px; object-fit: contain;">
                                     </div>
                                 </div>
                             </div>
@@ -632,7 +708,7 @@
                                 <div class="col-md-4 col-sm-6 col-12 mb-md-0 mb-3">
                                     <div class="px-4">
                                         <p class="fw-semibold mb-3">
-                                            <a href="{{url('index')}}" class="d-inline-block">
+                                            <a href="/" class="d-inline-block">
                                                 <img src="{{asset('build/assets/images/brand-logos/desktop-white.png')}}" alt="Minttu" style="width: 600px; max-width: 100%; height: auto;">
                                             </a>
                                         </p>

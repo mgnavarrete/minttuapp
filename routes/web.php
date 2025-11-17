@@ -17,3 +17,4 @@ use App\Http\Controllers\IndexController;
 
 // LANDING PAGE //
 Route::get('/', [IndexController::class, 'index'])->name('index');  // Muestra la vista de inicio
+Route::get('/index', [IndexController::class, 'index'])->name('index');  // Muestra la vista de inicio
