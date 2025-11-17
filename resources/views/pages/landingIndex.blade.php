@@ -196,6 +196,51 @@
                     </div>
                     <!-- End:: Section-1 -->
 
+                    <!-- Start:: Section-Que-Es-Minttu -->
+                    <section class="section section-bg" id="que-es-minttu">
+                        <div class="container">
+                            <div class="row align-items-center gy-4">
+                                <div class="col-lg-6">
+                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">¿QUIÉNES SOMOS?</span></p>
+                                    <h2 class="fw-semibold mb-3">Minttu SpA</h2>
+                                    <p class="text-muted fs-15 mb-3">Minttu es una startup fundada en 2025 por un equipo pequeño que combina experiencia en prevención, datos y automatización. Nacimos con la misión de que cualquier operación pueda convertir sus cámaras en alertas útiles y trazables.</p>
+                                    <p class="text-muted fs-15 mb-3">Desde principios de este año venimos diseñando la idea y arquitectura de nuestra solución, validando flujos con especialistas en terreno y preparando los módulos críticos para el despliegue.</p>
+                                    <p class="text-muted fs-15 mb-3">En noviembre nos adjudicamos un fondo que nos permite acelerar el desarrollo y probar los primeros pilotos. Estamos invirtiendo cada recurso en convertir esta visión en una plataforma robusta y simple de adoptar.</p>
+                                    <p class="text-muted fs-15 mb-0">Hoy seguimos construyendo la solución completa y buscamos clientes fundadores, patrocinadores, canales y cualquier apoyo que nos permita escalar más rápido. Si compartes esta visión, conversemos.</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100">
+                                                <div class="card-body">
+                                                    <span class="badge bg-secondary-transparent text-secondary mb-2">Diseño 2025</span>
+                                                    <p class="mb-0 text-muted">Arquitectura pensada desde inicios de año junto a especialistas de seguridad y tecnología.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100">
+                                                <div class="card-body">
+                                                    <span class="badge bg-success-transparent text-success mb-2">Fondo adjudicado</span>
+                                                    <p class="mb-0 text-muted">Este noviembre aseguramos capital para convertir el plan en entregables concretos y pilotos guiados.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="card custom-card border-0 shadow-sm h-100">
+                                                <div class="card-body">
+                                                    <span class="badge bg-primary-transparent text-primary mb-2">Buscamos aliados</span>
+                                                    <p class="mb-0 text-muted">Clientes, patrocinadores y canales que quieran acompañar nuestro crecimiento y recibir soporte directo de los fundadores.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Que-Es-Minttu -->
+
                     <!-- Start:: Section-Problem -->
                     <section class="section" id="problem">
                         <div class="container text-center">
@@ -421,11 +466,13 @@
 
                                 </div>
                                 <div class="col-lg-6 text-center text-lg-end">
-                                    <div class="d-inline-flex p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light">
-                                        <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 550px; object-fit: contain;">
-                                    </div>
-                                    <div class="d-inline-flex p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light">
-                                        <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3" style="max-width: 550px; object-fit: contain;">
+                                    <div class="d-flex flex-column align-items-center align-items-lg-end gap-3">
+                                        <div class="p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light w-100" style="max-width: 550px;">
+                                            <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                        </div>
+                                        <div class="p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light w-100" style="max-width: 550px;">
+                                            <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
