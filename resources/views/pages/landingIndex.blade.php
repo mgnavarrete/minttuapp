@@ -131,9 +131,10 @@
                 .landing-body .landing-banner .main-banner-container {
                     width: 100% !important;
                     max-width: 100% !important;
-                    padding-inline: 0 !important;
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
+                    padding-inline: 3.5rem !important;
+                    padding-left: 3.5rem !important;
+                    padding-right: 3.5rem !important;
+                    padding-top: 4rem !important;
                     margin-left: 0 !important;
                     margin-right: 0 !important;
                 }
