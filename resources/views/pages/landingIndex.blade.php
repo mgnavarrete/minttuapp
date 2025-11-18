@@ -6,20 +6,29 @@
         <link rel="stylesheet" href="{{asset('build/assets/libs/swiper/swiper-bundle.min.css')}}">
         <style>
             .landing-hero-img-wrapper {
-                width: min(1000px, 100%);
+                width: min(500px, 100%);
                 margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: center;
             }
             .landing-hero-img {
-                width: 100%;
-                height: auto;
+                width: min(500px, 100%);
+                aspect-ratio: 1 / 1;
                 border-radius: 50%;
                 clip-path: circle(50% at 50% 50%);
                 object-fit: cover;
                 box-shadow: 0 20px 45px rgba(9, 15, 38, 0.22);
             }
+            .landing-main-image.landing-heading-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             @media (max-width: 575.98px) {
                 .landing-hero-img-wrapper {
-                    width: min(260px, 85%);
+                    width: min(320px, 90%);
+                    margin-left: auto;
                     margin-right: auto;
                 }
             }
@@ -159,8 +168,8 @@
                     <div class="landing-banner" id="home">
                         <section class="section">
                             <div class="container main-banner-container pb-lg-0">
-                                <div class="row">
-                                    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-8">
+                                <div class="row align-items-center">
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                         <div class="py-lg-5">
                                             <div class="mb-3">
                                                 <h5 class="fw-semibold text-fixed-white op-9">VIDEO ANALÍTICA INTELIGENTE EN TIEMPO REAL</h5>
@@ -182,11 +191,11 @@
                                                 </li>
                                             </ul> </div>
                                     </div>
-                                    <div class="col-xxl-5 col-xl-5 col-lg-5 customize-image text-center">
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 customize-image text-center">
                                     
-                                        <div class="text-end landing-main-image landing-heading-img">
+                                        <div class="landing-main-image landing-heading-img d-flex justify-content-center">
                                             <div class="landing-hero-img-wrapper">
-                                                <img src="{{asset('build/assets/images/landing/hero.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 600px; height: 100%; object-fit: contain;">
+                                                <video src="{{asset('build/assets/images/landing/heroVideo4.mp4')}}" class="img-fluid landing-hero-img" style="object-fit: contain;" autoplay loop muted playsinline></video>
                                             </div>
                                         </div>
                                     
@@ -307,11 +316,12 @@
                             <div class="row justify-content-between align-items-center mx-0">
                                 <div class="col-xxl-5 col-xl-5 col-lg-5 customize-image text-center">
                                     
-                                        <div class="text-end landing-main-image landing-heading-img">
-                                            <div class="landing-hero-img-wrapper">
-                                                <img src="{{asset('build/assets/images/landing/detect.png')}}" alt="" class="img-fluid landing-hero-img" style="width: 600px; height: 100%; object-fit: contain;">
-                                            </div>
+                                    <div class="landing-main-image landing-heading-img d-flex justify-content-center">
+                                        <div class="landing-hero-img-wrapper">
+                                            <video src="{{asset('build/assets/images/landing/detectVideo5.mp4')}}" class="img-fluid landing-hero-img" style="object-fit: contain;" autoplay loop muted playsinline></video>
                                         </div>
+                                    </div>
+                                
                                     
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 pt-5 pb-0 px-lg-2 px-5 text-start">
