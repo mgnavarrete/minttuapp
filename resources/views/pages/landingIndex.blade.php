@@ -1133,7 +1133,7 @@
                                             </div>
                                             <h5 class="fw-semibold mb-1">Jorge Navarrete González</h5>
                                             <p class="text-primary fw-semibold mb-3">Business & Finance Lead</p>
-                                            <p class="text-muted text-start mb-3">Ingeniero Comercial con más de 10 años de experiencia en banca empresas y financiamiento para negocios en BancoEstado. Ha liderado equipos comerciales y gestionado portafolios de clientes corporativos, evaluando proyectos de inversión, estructuras de financiamiento, análisis de riesgos y modelos de negocio.</p>
+                                            <p class="text-muted text-start mb-3">Ingeniero Comercial con más de 30 años de experiencia en banca empresas y financiamiento para negocios. Ha liderado equipos comerciales y gestionado portafolios de clientes corporativos, evaluando proyectos de inversión, estructuras de financiamiento, análisis de riesgos y modelos de negocio.</p>
                                             <p class="text-muted text-start mb-3">En Minttu apoya el diseño del modelo financiero, la estrategia comercial, las proyecciones de crecimiento y la relación con potenciales clientes fundadores y aliados estratégicos.</p>
                                             <div class="d-flex gap-2 justify-content-center">
                                                 <a href="https://www.linkedin.com/in/jorge-n-78b61299/" target="_blank" class="btn btn-icon btn-primary-light btn-wave">
