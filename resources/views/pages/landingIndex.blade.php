@@ -1181,62 +1181,48 @@
                             <h3 class="fw-semibold mb-2">Conversemos sobre seguridad y video analítica</h3>
                             <div class="row justify-content-center">
                                 <div class="col-xl-9">
-                                    <p class="text-muted fs-15 mb-5 fw-normal">Si buscas mejorar la prevención de riesgos, optimizar la supervisión o explorar un piloto con Minttu, escríbenos y coordinemos el siguiente paso.</p>
+                                    <p class="text-muted fs-15 mb-5 fw-normal">Si buscas mejorar la prevención de riesgos, optimizar la supervisión o explorar un piloto con Minttu, contáctanos a través de nuestros canales.</p>
                                 </div>
                             </div>
-                            <div class="row text-start">
-                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                    <div class="card custom-card border shadow-none">
+                            <div class="row text-start align-items-stretch">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-3 mb-lg-0">
+                                    <div class="card custom-card border shadow-none h-100">
                                         <div class="card-body p-0">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.43123456789!2d-70.648269684796!3d-33.448890980768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a1f90f1b1b%3A0x2b0b1b1b1b1b1b1b!2sSantiago%2C%20Chile!5e0!3m2!1ses!2scl!4v1670225507254!5m2!1ses!2scl" height="365" style="border:0;width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.43123456789!2d-70.648269684796!3d-33.448890980768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a1f90f1b1b%3A0x2b0b1b1b1b1b1b1b!2sSantiago%2C%20Chile!5e0!3m2!1ses!2scl!4v1670225507254!5m2!1ses!2scl" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                    <div class="card custom-card overflow-hidden section-bg border overflow-hidden shadow-none">
-                                        <div class="card-body">
-                                            <div class="row gy-3 mt-2 px-3">
-                                                <div class="col-xl-6">
-                                                    <div class="row gy-3">
-                                                        <div class="col-xl-12">
-                                                            <label for="contact-address-name" class="form-label">Nombre Completo:</label>
-                                                            <input type="text" class="form-control" id="contact-address-name" placeholder="Ingresa tu nombre">
-                                                        </div>
-                                                        <div class="col-xl-12">
-                                                            <label for="contact-address-phone" class="form-label">Teléfono:</label>
-                                                            <input type="text" class="form-control" id="contact-address-phone" placeholder="Ingresa tu número de teléfono">
-                                                        </div>
-                                                        <div class="col-xl-12">
-                                                            <label for="contact-address-address" class="form-label">Dirección:</label>
-                                                            <textarea class="form-control" id="contact-address-address" rows="1">Santiago, Chile</textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6">
-                                                    <label for="contact-address-message" class="form-label">Mensaje:</label>
-                                                    <textarea class="form-control" id="contact-address-message" rows="8"></textarea>
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <div class="d-flex mt-4">
-                                                        <div class="">
-                                                            <div class="btn-list">
-                                                                <a href="https://www.linkedin.com/company/minttu" class="btn btn-icon btn-primary-light btn-wave">
-                                                                    <i class="ri-linkedin-line fw-bold"></i>
-                                                                </a>
-                                                                <a href="https://www.x.com/minttu.cl" class="btn btn-icon btn-primary-light btn-wave">
-                                                                    <i class="ri-twitter-line fw-bold"></i>
-                                                                </a>
-                                                                <a href="https://www.instagram.com/minttu.cl" class="btn btn-icon btn-primary-light btn-wave">
-                                                                    <i class="ri-instagram-line fw-bold"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="ms-auto">
-                                                            <a href="{{route('index')}}" class="btn btn-primary btn-wave">Enviar Mensaje</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                    <div class="card custom-card section-bg border shadow-none h-100">
+                                        <div class="card-body d-flex flex-column justify-content-center p-5">
+                                            <div class="text-center mb-4">
+                                                <h4 class="fw-semibold mb-3">Canales de Contacto</h4>
+                                                <p class="text-muted fs-15 mb-0">Elige la forma más conveniente para comunicarte con nosotros</p>
                                             </div>
+                                            
+                                            <div class="d-grid gap-3 mt-4">
+                                                <a href="mailto:info@minttu.cl" class="btn btn-lg btn-primary btn-wave d-flex align-items-center justify-content-center">
+                                                    <i class="ri-mail-line fs-20 me-2"></i>
+                                                    <span>Enviar Email</span>
+                                                </a>
+                                                
+                                                <a href="https://www.linkedin.com/company/minttu" target="_blank" class="btn btn-lg btn-outline-primary btn-wave d-flex align-items-center justify-content-center">
+                                                    <i class="ri-linkedin-line fs-20 me-2"></i>
+                                                    <span>Síguenos en LinkedIn</span>
+                                                </a>
+                                                
+                                                <a href="https://www.x.com/minttu.cl" target="_blank" class="btn btn-lg btn-outline-primary btn-wave d-flex align-items-center justify-content-center">
+                                                    <i class="ri-twitter-line fs-20 me-2"></i>
+                                                    <span>Síguenos en X</span>
+                                                </a>
+                                                
+                                                <a href="https://www.instagram.com/minttu.cl" target="_blank" class="btn btn-lg btn-outline-primary btn-wave d-flex align-items-center justify-content-center">
+                                                    <i class="ri-instagram-line fs-20 me-2"></i>
+                                                    <span>Síguenos en Instagram</span>
+                                                </a>
+                                            </div>
+
+                                          
                                         </div>
                                     </div>
                                 </div>
