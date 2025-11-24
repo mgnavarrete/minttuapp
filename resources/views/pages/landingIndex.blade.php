@@ -158,6 +158,55 @@
                     padding-right: 0 !important;
                 }
             }
+            
+            /* Animaciones para arquitectura */
+            .arquitectura-step {
+                opacity: 0;
+                transform: translateY(30px);
+                transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            .arquitectura-step.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            .arquitectura-arrow {
+                opacity: 0;
+                transform: scaleY(0);
+                transform-origin: top;
+                transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            .arquitectura-arrow.visible {
+                opacity: 1;
+                transform: scaleY(1);
+            }
+            .arquitectura-arrow .arrow-line {
+                animation: lineGrow 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            }
+            .arquitectura-arrow .arrow-tip {
+                animation: arrowDrop 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.4s forwards;
+                opacity: 0;
+            }
+            .arquitectura-arrow.visible .arrow-tip {
+                opacity: 1;
+            }
+            @keyframes lineGrow {
+                from {
+                    height: 0;
+                }
+                to {
+                    height: 30px;
+                }
+            }
+            @keyframes arrowDrop {
+                from {
+                    opacity: 0;
+                    transform: translateY(-10px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
         </style>
       
 @endsection
@@ -174,7 +223,7 @@
                                             <div class="mb-3">
                                                 <h5 class="fw-semibold text-fixed-white op-9">VIDEO ANALÍTICA INTELIGENTE EN TIEMPO REAL</h5>
                                             </div>
-                                            <p class="landing-banner-heading mb-3"><span class="text-secondary">Control, Prevensión y Monitoreo</span> de Riesgos con IA y Edge Computing </p>
+                                            <p class="landing-banner-heading mb-3"><span class="text-secondary">Control, Prevención y Monitoreo</span> de Riesgos con IA y Edge Computing </p>
                                             <div class="fs-16 mb-4 text-fixed-white op-7">Convertimos tus cámaras IP en sensores inteligentes para seguridad operacional, logística e industria. Minttu entrega alertas con contexto, reportes descargables y métricas accionables para equipos de prevención y operaciones.</div>
                                             <ul class="list-unstyled text-fixed-white op-8 mb-4">
                                                 <li class="d-flex align-items-center mb-2">
@@ -189,8 +238,17 @@
                                                     <i class="bx bx-check-circle text-secondary fs-20 me-2"></i>
                                                     <span>Dashboards y reportes listos para auditorías</span>
                                                 </li>
-                                            </ul> </div>
+                                            </ul>
+                                            <div class="mt-4">
+                                                <a href="https://pdr.minttu.cl" target="_blank" class="btn btn-secondary btn-wave btn-lg">
+                                                    <i class='bx bx-desktop me-2'></i>Ver MVP
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
+
+
+                                    <!-- Video de la solución -->
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 customize-image text-center">
                                     
                                         <div class="landing-main-image landing-heading-img d-flex justify-content-center">
@@ -205,51 +263,6 @@
                         </section>
                     </div>
                     <!-- End:: Section-1 -->
-
-                    <!-- Start:: Section-Que-Es-Minttu -->
-                    <section class="section section-bg" id="que-es-minttu">
-                        <div class="container">
-                            <div class="row align-items-center gy-4">
-                                <div class="col-lg-6">
-                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">¿QUIÉNES SOMOS?</span></p>
-                                    <h2 class="fw-semibold mb-3">Minttu SpA</h2>
-                                    <p class="text-muted fs-15 mb-3">Minttu es una startup fundada en 2025 por un equipo pequeño que combina experiencia en prevención, datos y automatización. Nacimos con la misión de que cualquier operación pueda convertir sus cámaras en alertas útiles y trazables.</p>
-                                    <p class="text-muted fs-15 mb-3">Desde principios de este año hemos estado diseñando la idea y arquitectura de nuestra solución, validando flujos con especialistas en terreno y preparando los módulos críticos para el despliegue.</p>
-                                    <p class="text-muted fs-15 mb-3">En noviembre nos adjudicamos un fondo que nos permite acelerar el desarrollo y probar los primeros pilotos. Estamos invirtiendo cada recurso en convertir esta visión en una plataforma robusta y simple de adoptar.</p>
-                                    <p class="text-muted fs-15 mb-0">Hoy seguimos construyendo la solución completa y buscamos clientes fundadores, patrocinadores, canales y cualquier apoyo que nos permita escalar más rápido. Si compartes esta visión, conversemos.</p>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="row g-3">
-                                        <div class="col-sm-6">
-                                            <div class="card custom-card border-0 shadow-sm h-100">
-                                                <div class="card-body">
-                                                    <span class="badge bg-secondary-transparent text-secondary mb-2">Diseño 2025</span>
-                                                    <p class="mb-0 text-muted">Arquitectura pensada desde inicios de año junto a especialistas de seguridad y tecnología.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="card custom-card border-0 shadow-sm h-100">
-                                                <div class="card-body">
-                                                    <span class="badge bg-success-transparent text-success mb-2">Fondo adjudicado</span>
-                                                    <p class="mb-0 text-muted">Este noviembre aseguramos capital para convertir el plan en entregables concretos y pilotos guiados.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="card custom-card border-0 shadow-sm h-100">
-                                                <div class="card-body">
-                                                    <span class="badge bg-primary-transparent text-primary mb-2">Buscamos aliados</span>
-                                                    <p class="mb-0 text-muted">Clientes, patrocinadores y canales que quieran acompañar nuestro crecimiento y recibir soporte directo de los fundadores.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- End:: Section-Que-Es-Minttu -->
 
                     <!-- Start:: Section-Problem -->
                     <section class="section" id="problem">
@@ -307,7 +320,7 @@
                     <section class="section section-bg" id="como-funciona">
                         <div class="container text-center">
                             <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">NUESTRA SOLUCIÓN</span></p>
-                            <h3 class="fw-semibold mb-2">Video analítica inteligente para seguridad y operación en terreno</h3>
+                            <h3 class="fw-semibold mb-2">Video analítica inteligente para control y monitorización en terreno</h3>
                             <div class="row justify-content-center">
                                 <div class="col-xl-8">
                                     <p class="text-muted fs-15 mb-3 fw-normal">Implementamos analítica de video basada en IA y procesamiento en el borde para convertir las cámaras existentes en sensores activos. Generamos alertas automáticas hacia una plataforma web centralizada, con métricas y reportes descargables para equipos de seguridad y operación.</p>
@@ -364,132 +377,384 @@
                                     </div>
                                 </div>
                             </div>
-                            <h3 class="fw-semibold mb-4 mt-4">Implementación en tres pasos rápidos</h3>
-                            <div class="row g-3 text-start">
-                                <div class="col-xl-4 col-lg-4 col-md-6">
-                                    <div class="card custom-card h-100">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <span class="avatar avatar-lg avatar-rounded bg-primary-transparent me-2">
-                                                    <i class='bx bx-camera fs-24'></i>
-                                                </span>
-                                                <h6 class="fw-semibold mb-0">Paso 1</h6>
-                                            </div>
-                                            <h5 class="fw-semibold mb-2">Conecta tus cámaras IP existentes</h5>
-                                            <p class="text-muted mb-0">Integramos las cámaras ya desplegadas en sitio mediante un servidor Edge local, sin reemplazar tu infraestructura.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6">
-                                    <div class="card custom-card h-100">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <span class="avatar avatar-lg avatar-rounded bg-primary-transparent me-2">
-                                                    <i class='bx bx-chip fs-24'></i>
-                                                </span>
-                                                <h6 class="fw-semibold mb-0">Paso 2</h6>
-                                            </div>
-                                            <h5 class="fw-semibold mb-2">Detección automática con IA en el Edge</h5>
-                                            <p class="text-muted mb-0">Modelos propios de visión por computador detectan uso de EPP, celular e ingresos a zonas restringidas en tiempo real.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-12">
-                                    <div class="card custom-card h-100">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <span class="avatar avatar-lg avatar-rounded bg-primary-transparent me-2">
-                                                    <i class='bx bx-analyse fs-24'></i>
-                                                </span>
-                                                <h6 class="fw-semibold mb-0">Paso 3</h6>
-                                            </div>
-                                            <h5 class="fw-semibold mb-2">Alertas y trazabilidad desde la plataforma</h5>
-                                            <p class="text-muted mb-0">Cada detección se transforma en alertas gestionables, métricas y reportes CSV/PDF para tus equipos de prevención de riesgos.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </section>
                     <!-- End:: Section-Como-Funciona -->
-                    <!-- Start:: Section-Plataforma -->
-                    <section class="section" id="plataforma">
-                        <div class="container">
-                            <div class="row text-center">
-                                <div class="col-lg-6 mb-4 mb-lg-0">
-                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PLATAFORMA WEB DE GESTIÓN</span></p>
-                                    <h2 class="fw-semibold mb-3">Una plataforma pensada para prevención y operaciones</h2>
-                                    <p class="text-muted fs-15 mb-4">Dashboard, módulo de alertas, cámaras conectadas y trazabilidad completa en un solo lugar. Minttu centraliza detecciones de IA en flujos que tu equipo ya domina.</p>
-                                    <div class="row g-3 g-lg-4 justify-content-center">
-                                        <div class="col-12 col-sm-6">
-                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-pulse fs-22'></i>
+                    <!-- Start:: Section-Arquitectura -->
+                    <section class="section" id="arquitectura">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">ARQUITECTURA DEL SISTEMA</span></p>
+                            <h3 class="fw-semibold mb-2">¿Cómo funciona la implementación de Minttu?</h3>
+                            <div class="row justify-content-center mb-5">
+                                <div class="col-xl-9">
+                                    <p class="text-muted fs-15 mb-0 fw-normal">Nuestra solución se despliega de forma simple y no invasiva. El servidor Edge se instala en tus instalaciones, procesa las cámaras existentes con IA en tiempo real y envía solo las alertas relevantes a la nube para su gestión centralizada.</p>
+                                </div>
+                            </div>
+
+                            <!-- Paso 1: Instalación del Servidor Edge -->
+                            <div class="row justify-content-center mb-4 arquitectura-step">
+                                <div class="col-xl-10">
+                                    <div class="card custom-card border-0 shadow-lg">
+                                        <div class="card-body p-4 text-start">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                                    <span class="avatar avatar-xxl avatar-rounded bg-primary text-white">
+                                                        <i class='bx bx-server fs-32'></i>
                                                     </span>
-                                                    <div>
-                                                        <h6 class="fw-semibold">Dashboard & KPIs</h6>
-                                                        <p class="text-muted mb-0">Indicadores por sitio, cámaras y tipo de riesgo para priorizar acciones.</p>
-                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-6">
-                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-bell fs-22'></i>
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="fw-semibold">Gestión de alertas</h6>
-                                                        <p class="text-muted mb-0">Estados pendiente, revisada, cerrada o falsa alarma con comentarios y responsables.</p>
+                                                <div class="col-md-10">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="badge bg-primary-transparent text-primary me-2">PASO 1</span>
+                                                        <h4 class="fw-semibold mb-0">Instalación del Servidor Edge</h4>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-6">
-                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-video fs-22'></i>
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="fw-semibold">Cámaras y analíticas</h6>
-                                                        <p class="text-muted mb-0">Configura reglas por cámara, horarios, zonas y perfiles de riesgo.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-6">
-                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
-                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                                                    <span class="avatar avatar-rounded bg-primary-transparent">
-                                                        <i class='bx bx-file fs-22'></i>
-                                                    </span>
-                                                    <div>
-                                                        <h6 class="fw-semibold">Reportes CSV/PDF</h6>
-                                                        <p class="text-muted mb-0">Descarga evidencias y métricas listas para auditorías internas y externas.</p>
+                                                    <p class="text-muted fs-15 mb-3">Instalamos un servidor Edge compacto en tus instalaciones (oficina, almacén, zona operativa). Es una solución plug and play que funciona de forma autónoma y se integra sin modificar tu infraestructura existente.</p>
+                                                    <div class="row g-2">
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Instalación rápida</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Solo requiere conexión eléctrica y acceso a la red local de cámaras.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Procesamiento local</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Toda la IA corre en el Edge, sin enviar video a la nube.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-                                <div class="col-lg-6 text-center text-lg-end">
-                                    <div class="d-flex flex-column align-items-center align-items-lg-end gap-3">
-                                        <div class="p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light w-100" style="max-width: 550px;">
-                                            <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                            </div>
+
+                            <!-- Flecha de flujo -->
+                            <div class="row justify-content-center arquitectura-arrow">
+                                <div class="col-auto">
+                                    <div class="text-center">
+                                        <i class='bx bx-down-arrow-alt text-primary fs-32 mb-2'></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Paso 2: Conexión a Cámaras -->
+                            <div class="row justify-content-center mb-4 arquitectura-step">
+                                <div class="col-xl-10">
+                                    <div class="card custom-card border-0 shadow-lg">
+                                        <div class="card-body p-4 text-start">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                                    <span class="avatar avatar-xxl avatar-rounded bg-primary text-white">
+                                                        <i class='bx bx-camera fs-32'></i>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="badge bg-primary-transparent text-primary me-2">PASO 2</span>
+                                                        <h4 class="fw-semibold mb-0">Conexión a las Cámaras CCTV Existentes</h4>
+                                                    </div>
+                                                    <p class="text-muted fs-15 mb-3">El servidor Edge se conecta directamente a tus cámaras IP ya instaladas mediante protocolos estándar (RTSP, ONVIF). No es necesario reemplazar cámaras ni modificar la red existente. Aprovechamos la infraestructura que ya tienes desplegada.</p>
+                                                    <div class="row g-2">
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Sin cambios de hardware</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Usamos las cámaras que ya tienes operando.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Compatibilidad amplia</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Soportamos marcas estándar de cámaras IP industriales.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light w-100" style="max-width: 550px;">
-                                            <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Flecha de flujo -->
+                            <div class="row justify-content-center arquitectura-arrow">
+                                <div class="col-auto">
+                                    <div class="text-center">
+                                        <i class='bx bx-down-arrow-alt text-primary fs-32 mb-2'></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Paso 3: Configuración Inicial -->
+                            <div class="row justify-content-center mb-4 arquitectura-step">
+                                <div class="col-xl-10">
+                                    <div class="card custom-card border-0 shadow-lg">
+                                        <div class="card-body p-4 text-start">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                                    <span class="avatar avatar-xxl avatar-rounded bg-primary text-white">
+                                                        <i class='bx bx-cog fs-32'></i>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="badge bg-primary-transparent text-primary me-2">PASO 3</span>
+                                                        <h4 class="fw-semibold mb-0">Configuración Inicial del Sistema</h4>
+                                                    </div>
+                                                    <p class="text-muted fs-15 mb-3">Configuramos las analíticas por cámara según tus necesidades: zonas de interés, horarios de operación, tipos de alertas y umbrales de detección. También conectamos el servidor Edge a la plataforma en la nube para que las alertas fluyan automáticamente.</p>
+                                                    <div class="row g-2">
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Configuración personalizada</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Ajustamos reglas por cámara, zona y horario según tu operación.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Conexión a la nube</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Vinculamos el Edge con tu cuenta en la plataforma web.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Flecha de flujo -->
+                            <div class="row justify-content-center arquitectura-arrow">
+                                <div class="col-auto">
+                                    <div class="text-center">
+                                        <i class='bx bx-down-arrow-alt text-primary fs-32 mb-2'></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Paso 4: Procesamiento con IA -->
+                            <div class="row justify-content-center mb-4 arquitectura-step">
+                                <div class="col-xl-10">
+                                    <div class="card custom-card border-0 shadow-lg bg-gradient-primary-transparent">
+                                        <div class="card-body p-4 text-start">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                                    <span class="avatar avatar-xxl avatar-rounded bg-primary text-white">
+                                                        <i class='bx bx-chip fs-32'></i>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="badge bg-primary-transparent text-primary me-2">PASO 4</span>
+                                                        <h4 class="fw-semibold mb-0">Procesamiento en Tiempo Real con IA en el Edge</h4>
+                                                    </div>
+                                                    <p class="text-muted fs-15 mb-3">Aquí ocurre la magia: el servidor Edge analiza constantemente el video de cada cámara utilizando modelos propios de visión por computador. Detecta automáticamente uso de EPP, celular, ingresos a zonas restringidas y otras situaciones de riesgo. Todo el procesamiento es local, en tiempo real y sin latencia.</p>
+                                                    <div class="row g-2">
+                                                        <div class="col-md-4">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-brain text-primary fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Modelos exclusivos</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Desarrollados y entrenados específicamente para tu operación.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-time-five text-primary fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Detección instantánea</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Alertas generadas en milisegundos tras detectar el evento.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-shield text-primary fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Privacidad garantizada</h6>
+                                                                    <p class="text-muted mb-0 fs-14">El video nunca sale de tus instalaciones, solo alertas.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Flecha de flujo -->
+                            <div class="row justify-content-center arquitectura-arrow">
+                                <div class="col-auto">
+                                    <div class="text-center">
+                                        <i class='bx bx-down-arrow-alt text-primary fs-32 mb-2'></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Paso 5: Envío a la Nube -->
+                            <div class="row justify-content-center mb-4 arquitectura-step">
+                                <div class="col-xl-10">
+                                    <div class="card custom-card border-0 shadow-lg">
+                                        <div class="card-body p-4 text-start">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                                    <span class="avatar avatar-xxl avatar-rounded bg-primary text-white">
+                                                        <i class='bx bx-cloud-upload fs-32'></i>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="badge bg-primary-transparent text-primary me-2">PASO 5</span>
+                                                        <h4 class="fw-semibold mb-0">Envío de Alertas a la Nube</h4>
+                                                    </div>
+                                                    <p class="text-muted fs-15 mb-3">Cuando se detecta un evento, el servidor Edge envía automáticamente la alerta a la nube: imagen del evento, cámara, hora exacta, tipo de detección y nivel de confianza. Esta información se almacena de forma segura en una base de datos centralizada, disponible desde cualquier lugar.</p>
+                                                    <div class="row g-2">
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Solo lo relevante</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Se envían alertas, no videos completos. Ahorro de ancho de banda.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-check-circle text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Base de datos segura</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Todas las alertas se almacenan para auditoría y trazabilidad.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Flecha de flujo -->
+                            <div class="row justify-content-center arquitectura-arrow">
+                                <div class="col-auto">
+                                    <div class="text-center">
+                                        <i class='bx bx-down-arrow-alt text-primary fs-32 mb-2'></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Paso 6: Plataforma Web -->
+                            <div class="row justify-content-center arquitectura-step">
+                                <div class="col-xl-10">
+                                    <div class="card custom-card border-0 shadow-lg">
+                                        <div class="card-body p-4 text-start">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-2 text-center mb-3 mb-md-0">
+                                                    <span class="avatar avatar-xxl avatar-rounded bg-primary text-white">
+                                                        <i class='bx bx-desktop fs-32'></i>
+                                                    </span>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <span class="badge bg-primary-transparent text-primary me-2">PASO 6</span>
+                                                        <h4 class="fw-semibold mb-0">Gestión desde la Plataforma Web Centralizada</h4>
+                                                    </div>
+                                                    <p class="text-muted fs-15 mb-3">Accede desde cualquier dispositivo a tu panel de control. Visualiza todas las alertas en tiempo real, gestiona cada detección (pendiente, revisada, cerrada, falsa alarma), asigna responsables, agrega comentarios y descarga reportes detallados en CSV, gráficos o archivos PDF listos para auditorías.</p>
+                                                    <div class="row g-2">
+                                                        <div class="col-md-3">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-pie-chart-alt-2 text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Dashboard KPIs</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Métricas clave por sitio y tipo de alerta.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-bell text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Gestión de alertas</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Estados, comentarios y responsables.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-video text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Configuración</h6>
+                                                                    <p class="text-muted mb-0 fs-14">Reglas por cámara y zona en tiempo real.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <div class="d-flex align-items-start">
+                                                                <i class='bx bx-file text-success fs-18 me-2 mt-1'></i>
+                                                                <div>
+                                                                    <h6 class="fw-semibold mb-1">Reportes</h6>
+                                                                    <p class="text-muted mb-0 fs-14">CSV, gráficos y PDF para auditorías.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Resumen Final -->
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-xl-9">
+                                    <div class="card custom-card border-0 shadow-lg bg-primary text-white">
+                                        <div class="card-body text-center py-4">
+                                            <h5 class="fw-semibold text-white mb-3">Una solución completa, simple de implementar</h5>
+                                            <p class="text-fixed-white op-9 mb-3 fs-15">Todo el proceso es plug and play: instalamos el servidor Edge en tu sitio, lo conectamos a las cámaras existentes, configuramos las analíticas y dejamos todo corriendo. Tu equipo solo debe acceder a la plataforma web para gestionar alertas y descargar reportes.</p>
+                                            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                                <div class="d-flex align-items-center">
+                                                    <i class='bx bx-time text-white fs-20 me-2'></i>
+                                                    <span class="text-fixed-white">Implementación en días, no meses</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class='bx bx-money text-white fs-20 me-2'></i>
+                                                    <span class="text-fixed-white">Sin inversión en cámaras nuevas</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class='bx bx-support text-white fs-20 me-2'></i>
+                                                    <span class="text-fixed-white">Soporte directo del equipo fundador</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <!-- End:: Section-Plataforma -->
+                    <!-- End:: Section-Arquitectura -->
                     <!-- Start:: Section-Analiticas -->
                     <section class="section section-bg" id="analiticas">
                         <div class="container text-center">
@@ -586,10 +851,104 @@
                     </section>
                     <!-- End:: Section-Analiticas -->
 
-                    
+                   
+
+                    <!-- Start:: Section-Plataforma -->
+                    <section class="section" id="plataforma">
+                        <div class="container">
+                            <div class="row text-center">
+                                <div class="col-lg-6 mb-4 mb-lg-0">
+                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PLATAFORMA WEB DE GESTIÓN</span></p>
+                                    <h2 class="fw-semibold mb-3">Una plataforma pensada para prevención y operaciones</h2>
+                                    <p class="text-muted fs-15 mb-4">Dashboard, módulo de alertas, cámaras conectadas y trazabilidad completa en un solo lugar. Minttu centraliza detecciones de IA en flujos que tu equipo ya domina.</p>
+                                    <div class="row g-3 g-lg-4 justify-content-center">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-pulse fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Dashboard & KPIs</h6>
+                                                        <p class="text-muted mb-0">Indicadores por sitio, cámaras y tipo de riesgo para priorizar acciones.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-bell fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Gestión de alertas</h6>
+                                                        <p class="text-muted mb-0">Estados pendiente, revisada, cerrada o falsa alarma con comentarios y responsables.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-video fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Cámaras y analíticas</h6>
+                                                        <p class="text-muted mb-0">Configura reglas por cámara, horarios, zonas y perfiles de riesgo.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100 text-center landing-feature-card">
+                                                <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                                                    <span class="avatar avatar-rounded bg-primary-transparent">
+                                                        <i class='bx bx-file fs-22'></i>
+                                                    </span>
+                                                    <div>
+                                                        <h6 class="fw-semibold">Reportes CSV/PDF</h6>
+                                                        <p class="text-muted mb-0">Descarga evidencias y métricas listas para auditorías internas y externas.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6 text-center text-lg-end">
+                                    <div class="d-flex flex-column align-items-center align-items-lg-end gap-3">
+                                        <div class="p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light w-100" style="max-width: 550px;">
+                                            <img src="{{asset('build/assets/images/landing/webplat.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                        </div>
+                                        <div class="p-3 p-md-4 bg-white rounded-4 shadow-lg border border-2 border-light w-100" style="max-width: 550px;">
+                                            <img src="{{asset('build/assets/images/landing/webplat2.png')}}" alt="Panel principal de la plataforma Minttu" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- CTA Demo MVP -->
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-xl-8">
+                                    <div class="card custom-card border-0 shadow-lg bg-primary-transparent">
+                                        <div class="card-body text-center py-4 px-4">
+                                            <h5 class="fw-semibold mb-3">Explora nuestra plataforma en acción</h5>
+                                            <p class="text-muted mb-3 fs-15">Esta demo es un mockup funcional que muestra la idea de cómo opera la plataforma: visualización de alertas, gestión de estados, configuración de cámaras y descarga de reportes. Es una representación inicial del flujo completo de trabajo.</p>
+                                            <a href="https://pdr.minttu.cl" target="_blank" class="btn btn-primary btn-wave btn-lg">
+                                                <i class='bx bx-desktop me-2'></i>Ver demo del MVP
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Plataforma -->                    
 
                     <!-- Start:: Section-Corfo -->
-                    <section class="section" id="corfo">
+                    <section class="section section-bg" id="corfo">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
@@ -637,7 +996,7 @@
                     <!-- End:: Section-Corfo -->
 
                     <!-- Start:: Section-Roadmap -->
-                    <section class="section section-bg" id="roadmap">
+                    <section class="section" id="roadmap">
                         <div class="container text-center">
                             <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">PROYECCIÓN Y ESCALABILIDAD</span></p>
                             <h3 class="fw-semibold mb-3">Roadmap</h3>
@@ -686,10 +1045,137 @@
                     </section>
                     <!-- End:: Section-Roadmap -->
 
-              
+                    <!-- Start:: Section-Que-Es-Minttu -->
+                    <section class="section section-bg" id="que-es-minttu">
+                        <div class="container">
+                            <div class="row align-items-center gy-4">
+                                <div class="col-lg-6">
+                                    <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">¿QUIÉNES SOMOS?</span></p>
+                                    <h2 class="fw-semibold mb-3">Minttu SpA</h2>
+                                    <p class="text-muted fs-15 mb-3">Minttu es una startup fundada en 2025 por un equipo pequeño que combina experiencia en prevención, datos y automatización. Nacimos con la misión de que cualquier operación pueda convertir sus cámaras en alertas útiles y trazables.</p>
+                                    <p class="text-muted fs-15 mb-3">Desde principios de este año hemos estado diseñando la idea y arquitectura de nuestra solución, validando flujos con especialistas en terreno y preparando los módulos críticos para el despliegue.</p>
+                                    <p class="text-muted fs-15 mb-3">En noviembre nos adjudicamos un fondo que nos permite acelerar el desarrollo y probar los primeros pilotos. Estamos invirtiendo cada recurso en convertir esta visión en una plataforma robusta y simple de adoptar.</p>
+                                    <p class="text-muted fs-15 mb-0">Hoy seguimos construyendo la solución completa y buscamos clientes fundadores, patrocinadores, canales y cualquier apoyo que nos permita escalar más rápido. Si compartes esta visión, conversemos.</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100">
+                                                <div class="card-body">
+                                                    <span class="badge bg-secondary-transparent text-secondary mb-2">Diseño 2025</span>
+                                                    <p class="mb-0 text-muted">Arquitectura pensada desde inicios de año junto a especialistas de seguridad y tecnología.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card custom-card border-0 shadow-sm h-100">
+                                                <div class="card-body">
+                                                    <span class="badge bg-success-transparent text-success mb-2">Fondo adjudicado</span>
+                                                    <p class="mb-0 text-muted">Este noviembre aseguramos capital para convertir el plan en entregables concretos y pilotos guiados.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="card custom-card border-0 shadow-sm h-100">
+                                                <div class="card-body">
+                                                    <span class="badge bg-primary-transparent text-primary mb-2">Buscamos aliados</span>
+                                                    <p class="mb-0 text-muted">Clientes, patrocinadores y canales que quieran acompañar nuestro crecimiento y recibir soporte directo de los fundadores.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Que-Es-Minttu -->
+                    <!-- Start:: Section-Equipo -->
+                    <section class="section" id="equipo">
+                        <div class="container text-center">
+                            <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">NUESTRO EQUIPO</span></p>
+                            <h3 class="fw-semibold mb-2">Equipo fundador</h3>
+                            <div class="row justify-content-center">
+                                <div class="col-xl-9">
+                                    <p class="text-muted fs-15 mb-5 fw-normal">Combinamos experiencia en inteligencia artificial, edge computing, finanzas y estrategia comercial para llevar la video analítica industrial a producción.</p>
+                                </div>
+                            </div>
+                            <div class="row g-4 justify-content-center text-start">
+                                <div class="col-xl-4 col-lg-6 col-md-6">
+                                    <div class="card custom-card border shadow-sm h-100">
+                                        <div class="card-body text-center">
+                                            <div class="mb-3">
+                                                <span class="avatar avatar-xxl avatar-rounded bg-primary-transparent text-primary">
+                                                    <span class="fs-24 fw-semibold">MN</span>
+                                                </span>
+                                            </div>
+                                            <h5 class="fw-semibold mb-1">Matías Navarrete Tapia</h5>
+                                            <p class="text-primary fw-semibold mb-3">Founder & AI / Product Lead</p>
+                                            <p class="text-muted text-start mb-3">Ingeniero Civil en Computación, con Major en Ingeniería Robótica y Minor en Inteligencia Computacional. Especialista en visión por computador, edge computing e inteligencia artificial aplicada a entornos industriales. Ha liderado proyectos de automatización de inspecciones con drones y análisis de imágenes a gran escala.</p>
+                                            <p class="text-muted text-start mb-3">En Minttu se enfoca en el diseño y construcción de la arquitectura completa, desde los modelos de IA en el Edge hasta la plataforma web de gestión y APIs de integración.</p>
+                                            <div class="d-flex gap-2 justify-content-center">
+                                                <a href="https://www.linkedin.com/in/matías-ignacio-navarrete-387629297" target="_blank" class="btn btn-icon btn-primary-light btn-wave">
+                                                    <i class="ri-linkedin-line fw-bold"></i>
+                                                </a>
+                                                <a href="mailto:mnavarrete@minttu.cl" class="btn btn-icon btn-primary-light btn-wave">
+                                                    <i class="ri-mail-line fw-bold"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6">
+                                    <div class="card custom-card border shadow-sm h-100">
+                                        <div class="card-body text-center">
+                                            <div class="mb-3">
+                                                <span class="avatar avatar-xxl avatar-rounded bg-primary-transparent text-primary">
+                                                    <span class="fs-24 fw-semibold">JN</span>
+                                                </span>
+                                            </div>
+                                            <h5 class="fw-semibold mb-1">Jorge Navarrete González</h5>
+                                            <p class="text-primary fw-semibold mb-3">Business & Finance Lead</p>
+                                            <p class="text-muted text-start mb-3">Ingeniero Comercial con más de 10 años de experiencia en banca empresas y financiamiento para negocios en BancoEstado. Ha liderado equipos comerciales y gestionado portafolios de clientes corporativos, evaluando proyectos de inversión, estructuras de financiamiento, análisis de riesgos y modelos de negocio.</p>
+                                            <p class="text-muted text-start mb-3">En Minttu apoya el diseño del modelo financiero, la estrategia comercial, las proyecciones de crecimiento y la relación con potenciales clientes fundadores y aliados estratégicos.</p>
+                                            <div class="d-flex gap-2 justify-content-center">
+                                                <a href="https://www.linkedin.com/in/jorge-n-78b61299/" target="_blank" class="btn btn-icon btn-primary-light btn-wave">
+                                                    <i class="ri-linkedin-line fw-bold"></i>
+                                                </a>
+                                                <a href="mailto:jnavarrete@minttu.cl" class="btn btn-icon btn-primary-light btn-wave">
+                                                    <i class="ri-mail-line fw-bold"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6">
+                                    <div class="card custom-card border shadow-sm h-100">
+                                        <div class="card-body text-center">
+                                            <div class="mb-3">
+                                                <span class="avatar avatar-xxl avatar-rounded bg-secondary-transparent text-secondary">
+                                                    <span class="fs-24 fw-semibold">EO</span>
+                                                </span>
+                                            </div>
+                                            <h5 class="fw-semibold mb-1">Erwin Oehrens Baquedano</h5>
+                                            <p class="text-secondary fw-semibold mb-3">Commercial & Partnerships Lead</p>
+                                            <p class="text-muted text-start mb-3">Ingeniero Comercial con amplia experiencia en ventas B2B, desarrollo de canales comerciales y gestión de marcas en tecnología y electrónica de consumo. Ha trabajado como Key Account Manager y Brand Manager en compañías como Hisense, TPV, Lenovo y LG, liderando estrategias de entrada al mercado.</p>
+                                            <p class="text-muted text-start mb-3">En Minttu colabora en la construcción de la estrategia de go-to-market, búsqueda activa de partners estratégicos, desarrollo de canales de distribución y escalamiento comercial de la solución.</p>
+                                            <div class="d-flex gap-2 justify-content-center">
+                                                <a href="https://www.linkedin.com/in/eoehrensb/" target="_blank" class="btn btn-icon btn-primary-light btn-wave">
+                                                    <i class="ri-linkedin-line fw-bold"></i>
+                                                </a>
+                                                <a href="mailto:eoehrens@minttu.cl" class="btn btn-icon btn-primary-light btn-wave">
+                                                    <i class="ri-mail-line fw-bold"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End:: Section-Equipo -->
 
                     <!-- Start:: Section-10 -->
-                    <section class="section" id="contact">
+                    <section class="section section-bg" id="contact">
                         <div class="container text-center">
                             <p class="fs-12 fw-semibold text-brand-accent mb-1"><span class="landing-section-heading">CONTÁCTANOS</span></p>
                             <h3 class="fw-semibold mb-2">Conversemos sobre seguridad y video analítica</h3>
@@ -833,5 +1319,35 @@
         <!-- INTERNAL LANDING JS -->
         @vite('resources/assets/js/landing.js')
 
+        <!-- Script para animaciones de arquitectura -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const arquitecturaSteps = document.querySelectorAll('.arquitectura-step');
+                const arquitecturaArrows = document.querySelectorAll('.arquitectura-arrow');
+                
+                const observerOptions = {
+                    threshold: 0.2,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                        }
+                    });
+                }, observerOptions);
+                
+                // Observar todos los pasos
+                arquitecturaSteps.forEach(step => {
+                    observer.observe(step);
+                });
+                
+                // Observar todas las flechas
+                arquitecturaArrows.forEach(arrow => {
+                    observer.observe(arrow);
+                });
+            });
+        </script>
 
 @endsection

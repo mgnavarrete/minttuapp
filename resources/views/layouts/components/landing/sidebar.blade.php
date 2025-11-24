@@ -24,31 +24,11 @@
                         </a>
                     </li>
                     <!-- End::slide -->
+                    
                     <!-- Start::slide -->
                     <li class="slide">
                         <a href="#problem" class="side-menu__item">
-                            <span class="side-menu__label">Problema</span>
-                        </a>
-                    </li>
-                    <!-- End::slide -->
-                    <!-- Start::slide -->
-                    <li class="slide">
-                        <a href="#como-funciona" class="side-menu__item">
-                            <span class="side-menu__label">Cómo funciona</span>
-                        </a>
-                    </li>
-                    <!-- End::slide -->
-                    <!-- Start::slide -->
-                    <li class="slide">
-                        <a href="#plataforma" class="side-menu__item">
-                            <span class="side-menu__label">Plataforma web</span>
-                        </a>
-                    </li>
-                    <!-- End::slide -->
-                    <!-- Start::slide -->
-                    <li class="slide">
-                        <a href="#analiticas" class="side-menu__item">
-                            <span class="side-menu__label">Analíticas</span>
+                            <span class="side-menu__label">Qué hacemos</span>
                         </a>
                     </li>
                     <!-- End::slide -->
@@ -56,10 +36,11 @@
                     <!-- Start::slide -->
                     <li class="slide">
                         <a href="#corfo" class="side-menu__item">
-                            <span class="side-menu__label">CORFO / Respaldo</span>
+                            <span class="side-menu__label">Respaldo</span>
                         </a>
                     </li>
                     <!-- End::slide -->
+                    
                     <!-- Start::slide -->
                     <li class="slide">
                         <a href="#roadmap" class="side-menu__item">
@@ -67,6 +48,15 @@
                         </a>
                     </li>
                     <!-- End::slide -->
+                    
+                    <!-- Start::slide -->
+                    <li class="slide">
+                        <a href="#que-es-minttu" class="side-menu__item">
+                            <span class="side-menu__label">Quiénes somos</span>
+                        </a>
+                    </li>
+                    <!-- End::slide -->
+                    
                     <!-- Start::slide -->
                     <li class="slide">
                         <a href="#contact" class="side-menu__item">
