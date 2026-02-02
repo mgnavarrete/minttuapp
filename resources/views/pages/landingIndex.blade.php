@@ -239,11 +239,11 @@
                                                     <span>Dashboards y reportes listos para auditorías</span>
                                                 </li>
                                             </ul>
-                                            <div class="mt-4">
+                                            <!-- <div class="mt-4">
                                                 <a href="https://pdr.minttu.cl" target="_blank" class="btn btn-secondary btn-wave btn-lg">
                                                     <i class='bx bx-desktop me-2'></i>Ver MVP
                                                 </a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
 
@@ -930,7 +930,7 @@
                             </div>
                             
                             <!-- CTA Demo MVP -->
-                            <div class="row justify-content-center mt-5">
+                            <!-- <div class="row justify-content-center mt-5">
                                 <div class="col-xl-8">
                                     <div class="card custom-card border-0 shadow-lg bg-primary-transparent">
                                         <div class="card-body text-center py-4 px-4">
@@ -942,7 +942,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </section>
                     <!-- End:: Section-Plataforma -->                    
